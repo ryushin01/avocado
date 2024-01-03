@@ -5,7 +5,7 @@ import svgr from '@svgr/rollup';
 // https://vitejs.dev/config/
 export default defineConfig({
   // root path 선언 필요: repository name과 동일하게 선언하기
-  base: '/abocado',
+  base: '/avocado',
   // vite에서 svg를 사용하기 위한 세팅
   plugins: [svgr(), react()],
   server: {
