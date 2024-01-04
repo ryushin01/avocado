@@ -7,11 +7,11 @@
 - Developers & parts
 
   - <a href="https://github.com/kgy8987" target="_blank">김기영</a>
-    - 컴포넌트: -
-    - 페이지: -
+    - 컴포넌트: Button, Filter, Pagination, ListItem
+    - 페이지: List
   - <a href="https://github.com/ryushin01" target="_blank">류창선</a>
-    - 컴포넌트: -
-    - 페이지: -
+    - 컴포넌트: Footer, Header, Modal, TopButton
+    - 페이지: Main
 
 - Tech stacks
 
