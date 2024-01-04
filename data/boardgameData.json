@@ -1,0 +1,23 @@
+{
+  "message": "SUCCESS",
+  "data": [
+    {
+      "ranking": 1,
+      "bggId": 224517,
+      "blId": 8569,
+      "name": "브라스: 버밍엄",
+      "englishName": "Brass: Birmingham",
+      "image": "https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__original/img/FpyxH41Y6_ROoePAilPNEhXnzO8=/0x0/filters:format(jpeg)/pic3490053.jpg",
+      "yearReleased": 2018,
+      "players": "2-4",
+      "best": "3-4",
+      "playingTime": "60-120",
+      "minAge": 14,
+      "average": 8.6,
+      "averageWeight": 3.89,
+      "designer": ["Gavan Brown", "Matt Tolman", "Martin Wallace"],
+      "type": ["Strategy"],
+      "category": ["이성의 시대", "경제", "산업", "기차", "운송"]
+    }
+  ]
+}
