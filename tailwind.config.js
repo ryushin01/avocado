@@ -23,6 +23,15 @@ export default {
       backgroundImage: {
         menu: "url('/images/header/icon_menu.svg')",
       },
+      animation: {
+        cover: 'cover 0.3s linear 0.1s backwards',
+      },
+      keyframes: {
+        cover: {
+          '0%': { top: '-100%' },
+          '100%': { top: '0' },
+        },
+      },
     },
   },
   plugins: [],

@@ -1,0 +1,40 @@
+{
+  "message": "SUCCESS",
+  "data": [
+    {
+      "typeId": 1,
+      "name": "전략 게임",
+      "englishName": "Strategy"
+    },
+    {
+      "typeId": 2,
+      "name": "테마 게임",
+      "englishName": "Thematic"
+    },
+    {
+      "typeId": 3,
+      "name": "가족 게임",
+      "englishName": "Family"
+    },
+    {
+      "typeId": 4,
+      "name": "파티 게임",
+      "englishName": "Party"
+    },
+    {
+      "typeId": 5,
+      "name": "추상 전략 게임",
+      "englishName": "Abstract"
+    },
+    {
+      "typeId": 6,
+      "name": "워게임",
+      "englishName": "Wargames"
+    },
+    {
+      "typeId": 7,
+      "name": "컬렉터블 게임",
+      "englishName": "Customizable"
+    }
+  ]
+}
