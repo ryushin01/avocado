@@ -33,6 +33,10 @@
     }
   }
 
+  .btn-top.scrolled {
+    @apply opacity-100 translate-y-0;
+  }
+
   .btn-default {
     @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700;
   }
