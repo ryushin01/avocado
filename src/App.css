@@ -8,6 +8,13 @@
  * 샘플 버튼의 경우는 Button 컴포넌트의 공통 스타일링 예시이며, <Button className="btn-default" />만으로 여러 클래스를 처리합니다.
  */
 
+@layer base {
+  main {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
 @layer components {
   .btn-default {
     @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700;
