@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ReactComponent as IconMenu } from '../../images/header/icon_menu.svg';
+import { ReactComponent as IconMenu } from '../../images/common/icon_menu.svg';
 
 const Header = ({ isOverHero }) => {
   return (
