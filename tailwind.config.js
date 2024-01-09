@@ -17,6 +17,7 @@ export default {
       grayscaleD: '#999',
       grayscaleE: '#777',
       grayscaleF: '#eee',
+      grayscaleG: '#fff',
     },
     extend: {
       backgroundImage: {

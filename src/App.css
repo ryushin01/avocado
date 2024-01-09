@@ -16,6 +16,7 @@
 
   svg {
     @apply transition-all duration-500 ease-in-out;
+  }
 
   main {
     width: 100%;
@@ -25,10 +26,10 @@
 
 @layer components {
   header.scrolled {
-    @apply bg-white text-black;
+    @apply bg-grayscaleG text-grayscaleA;
 
     svg {
-      @apply fill-black;
+      @apply fill-grayscaleA;
     }
   }
 
