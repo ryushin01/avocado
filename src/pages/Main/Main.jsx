@@ -32,7 +32,7 @@ const Main = () => {
 
   return (
     <>
-      <div className="text-3xl font-bold underline">test</div>
+      <div className="h-[2000px]">test</div>
     </>
   );
 };
