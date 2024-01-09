@@ -8,6 +8,16 @@ export default {
     backgroundPosition: {
       'right-center': 'right center',
     },
+    colors: {
+      primary: '#FF5100',
+      secondary: '#76CC1C',
+      grayscaleA: '#000',
+      grayscaleB: '#111',
+      grayscaleC: '#666',
+      grayscaleD: '#999',
+      grayscaleE: '#777',
+      grayscaleF: '#eee',
+    },
     extend: {
       backgroundImage: {
         menu: "url('/images/header/icon_menu.svg')",
