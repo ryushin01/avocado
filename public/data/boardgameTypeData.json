@@ -4,37 +4,44 @@
     {
       "typeId": 1,
       "name": "전략 게임",
-      "englishName": "Strategy"
+      "englishName": "Strategy",
+      "based": "1"
     },
     {
       "typeId": 2,
       "name": "테마 게임",
-      "englishName": "Thematic"
+      "englishName": "Thematic",
+      "based": "2"
     },
     {
       "typeId": 3,
       "name": "가족 게임",
-      "englishName": "Family"
+      "englishName": "Family",
+      "based": "2"
     },
     {
       "typeId": 4,
       "name": "파티 게임",
-      "englishName": "Party"
+      "englishName": "Party",
+      "based": "2"
     },
     {
       "typeId": 5,
       "name": "추상 전략 게임",
-      "englishName": "Abstract"
+      "englishName": "Abstract",
+      "based": "1"
     },
     {
       "typeId": 6,
       "name": "워게임",
-      "englishName": "Wargames"
+      "englishName": "Wargames",
+      "based": "1"
     },
     {
       "typeId": 7,
       "name": "컬렉터블 게임",
-      "englishName": "Customizable"
+      "englishName": "Customizable",
+      "based": "2"
     }
   ]
 }

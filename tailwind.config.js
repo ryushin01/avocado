@@ -3,10 +3,13 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     backgroundSize: {
+      4: '1rem',
       6: '1.5rem',
+      8: '2rem',
     },
     backgroundPosition: {
       'right-center': 'right center',
+      center: 'center center',
     },
     colors: {
       primary: '#FF5100',
@@ -20,9 +23,6 @@ export default {
       grayscaleG: '#fff',
     },
     extend: {
-      backgroundImage: {
-        menu: "url('/images/header/icon_menu.svg')",
-      },
       animation: {
         cover: 'cover 0.3s linear 0.1s backwards',
       },

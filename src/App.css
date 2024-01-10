@@ -50,6 +50,10 @@
     @apply top-0;
   }
 
+  .tab.selected {
+    @apply bg-grayscaleG text-grayscaleB;
+  }
+
   .btn-top.scrolled {
     @apply opacity-100 translate-y-0;
   }
