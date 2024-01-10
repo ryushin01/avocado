@@ -24,7 +24,7 @@ export default {
     },
     extend: {
       animation: {
-        cover: 'cover 0.3s linear 0.1s backwards',
+        cover: 'cover 0.3s linear 0.01s backwards',
       },
       keyframes: {
         cover: {
