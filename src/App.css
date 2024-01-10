@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/**
+ * 사용자 정의 재사용 클래스 패턴
+ * @layer 안의 @apply로 Tailwind CSS 클래스 여럿을 묶어서 선언하여 아무 곳에서나 쓸 수 있습니다.
+ * 샘플 버튼의 경우는 Button 컴포넌트의 공통 스타일링 예시이며, <Button className="btn-default" />만으로 여러 클래스를 처리합니다.
+ */
+
+@layer base {
+  html,
+  body {
+    background-color: #111;
+  }
+
+  svg {
+    @apply transition-all duration-500 ease-in-out;
+  }
+
+  main {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  header.scrolled {
+    /* @apply bg-grayscaleG text-grayscaleA; */
+    @apply text-grayscaleA;
+
+    &::after {
+      height: 100%;
+    }
+
+    svg {
+      @apply fill-grayscaleA;
+    }
+  }
+
+  .btn-top.scrolled {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .btn-default {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700;
+  }
+}
