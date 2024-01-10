@@ -12,6 +12,7 @@
   html,
   body {
     background-color: #111;
+    font-family: 'Nanum Gothic Coding', 'sans-serif';
   }
 
   svg {
