@@ -12,6 +12,7 @@
   html,
   body {
     background-color: #111;
+    font-family: 'Nanum Gothic Coding', 'sans-serif';
   }
 
   svg {
@@ -39,7 +40,12 @@
 
 @layer components {
   header.scrolled {
-    @apply bg-grayscaleG text-grayscaleA;
+    /* @apply bg-grayscaleG text-grayscaleA; */
+    @apply text-grayscaleA;
+
+    &::after {
+      height: 100%;
+    }
 
     svg {
       @apply fill-grayscaleA;

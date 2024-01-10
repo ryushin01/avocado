@@ -29,7 +29,11 @@ const Main = () => {
     getBoardgameData();
   }, []);
 
-  return <div className="h-[2000px]">test</div>;
+  console.log(boardgameData);
+
+  return (
+    <div className="h-[2000px]">test</div>;
+  );
 };
 
 export default Main;
