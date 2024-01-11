@@ -21,15 +21,25 @@ export default {
       grayscaleE: '#777',
       grayscaleF: '#eee',
       grayscaleG: '#fff',
+      bggHeavy: '#df4751',
+      bggMedium: '#ff6b26',
+      bggLight: '#5bda98',
+      bggHigh: '#1d804c',
+      bggLow: '#1978b3',
     },
     extend: {
       animation: {
-        cover: 'cover 0.3s linear 0.01s backwards',
+        waterfall: 'waterfall 0.3s linear 0.01s backwards',
+        spread: 'spread 0.15s linear 0.01s backwards',
       },
       keyframes: {
-        cover: {
+        waterfall: {
           '0%': { top: '-100%' },
           '100%': { top: '0' },
+        },
+        spread: {
+          '0%': { width: 0, height: 0 },
+          '100%': { width: '100%', height: '100%' },
         },
       },
     },

@@ -1,32 +1,66 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from '../Nav/Nav';
+import Portal from '../Modal/Portal';
+import Modal from '../Modal/Modal';
+import Detail from '../Modal/contents/Detail';
 import { ReactComponent as IconMenu } from '../../images/common/icon_menu.svg';
 
 const Header = ({ isOverHero }) => {
   const [toggleSideNav, setToggleSideNav] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
 
   const handleSideNav = () => {
     setToggleSideNav(prev => !prev);
   };
 
+  const modalHandler = () => {
+    setModalOpen(prev => !prev);
+  };
+
   useEffect(() => {
-    if (toggleSideNav) {
+    const close = e => {
+      if (e.keyCode === 27) {
+        setToggleSideNav(false);
+        setModalOpen(false);
+      }
+    };
+
+    window.addEventListener('keydown', close);
+  }, []);
+
+  useEffect(() => {
+    if (toggleSideNav || modalOpen) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
     }
-  }, [toggleSideNav]);
+  }, [toggleSideNav, modalOpen]);
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 flex justify-between items-center h-12 lg:h-20 px-5 lg:px-[60px] text-xl lg:text-3xl transition-all duration-500 ease-in-out text-grayscaleG lg:bg-grayscaleG lg:rounded-lg lg:overflow-hidden after:content-[''] after:absolute after:top-0 after:inset-x-0 after:h-0 after:bg-grayscaleG after:transition-all after:duration-300 ${
+      className={`fixed z-30 top-0 inset-x-0 flex justify-between items-center h-12 lg:h-20 px-5 lg:px-[60px] text-xl lg:text-3xl transition-all duration-500 ease-in-out text-grayscaleG lg:bg-grayscaleG lg:rounded-lg lg:overflow-hidden after:content-[''] after:absolute after:top-0 after:inset-x-0 after:h-0 after:bg-grayscaleG after:transition-all after:duration-300 ${
         isOverHero ? 'scrolled' : ''
       }`}
     >
-      <Link to="/" className="relative z-20 tracking-[8px]">
+      <Link
+        // to="/"
+        onClick={modalHandler}
+        className="relative z-20 tracking-[8px]"
+      >
         avocado
       </Link>
+
+      <Portal>
+        {modalOpen && (
+          <Modal
+            data={<Detail onClose={modalHandler} />}
+            onClose={modalHandler}
+            modalOpen={modalOpen}
+          />
+        )}
+      </Portal>
+
       <button
         type="button"
         onClick={handleSideNav}

@@ -40,7 +40,6 @@
 
 @layer components {
   header.scrolled {
-    /* @apply bg-grayscaleG text-grayscaleA; */
     @apply text-grayscaleA;
 
     &::after {
@@ -54,6 +53,10 @@
 
   nav.open {
     @apply top-0;
+  }
+
+  #modal > section.open {
+    @apply w-full h-full;
   }
 
   .tab.selected {
