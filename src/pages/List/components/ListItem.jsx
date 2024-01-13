@@ -16,11 +16,11 @@ const ListItem = ({
   ...props
 }) => {
   return (
-    <div className="w-full h-full bg-white lg:w-full" {...props}>
+    <div className="w-full h-full bg-grayscaleG lg:w-full" {...props}>
       <div className="flex w-full lg:w-full">
         <button
           type="button"
-          className="relative w-full pb-[100%]"
+          className="relative w-full pb-[150%]"
           onClick={() => {
             onClick(ranking);
           }}
