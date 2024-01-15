@@ -21,7 +21,9 @@ const Modal = ({ modalOpen, data, onClose }) => {
             <IconClose className="w-6 h-6 lg:w-10 lg:h-10" />
           </button>
         </div>
-        <div className="rounded-lg bg-grayscaleG">{data}</div>
+        <div className="rounded-lg bg-grayscaleG min-h-[calc(100vh-80px)]">
+          {data}
+        </div>
       </div>
     </section>
   );
