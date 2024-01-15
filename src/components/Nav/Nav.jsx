@@ -37,12 +37,12 @@ const Nav = ({ toggleSideNav, handleSideNav }) => {
 
   return (
     <nav
-      className={`fixed top-[-100%] left-0 w-screen h-screen z-50 bg-grayscaleB animate-cover overflow-y-auto ${
+      className={`fixed top-[-100%] left-0 w-screen h-screen z-50 bg-grayscaleB animate-waterfall overflow-y-auto ${
         toggleSideNav ? 'open' : ''
       }`}
     >
       <section>
-        <div className="sticky top-0 flex justify-end items-center px-5 lg:px-[60px] bg-grayscaleG rounded-b-lg border-b border-solid border-grayscaleB">
+        <div className="sticky z-10 top-0 flex justify-end items-center px-5 lg:px-[60px] bg-grayscaleG rounded-b-lg border-b border-solid border-grayscaleB">
           <h2 className="a11y-hidden">사이드 네비게이션</h2>
           <button
             type="button"

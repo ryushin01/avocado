@@ -16,7 +16,7 @@
       "average": 8.6,
       "averageWeight": 3.89,
       "designer": ["Gavan Brown", "Matt Tolman", "Martin Wallace"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 2,
@@ -33,7 +33,7 @@
       "average": 8.3,
       "averageWeight": 3.61,
       "designer": ["Ananda Gupta", "Jason Matthews"],
-      "type": ["Strategy", "Wargames"]
+      "type": "Strategy"
     },
     {
       "ranking": 3,
@@ -50,7 +50,7 @@
       "average": 8.3,
       "averageWeight": 4.43,
       "designer": ["Vlaada Chvátil"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 4,
@@ -67,7 +67,7 @@
       "average": 8.2,
       "averageWeight": 3.7,
       "designer": ["Alexander Pfister"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 5,
@@ -84,7 +84,7 @@
       "average": 8.3,
       "averageWeight": 3.45,
       "designer": ["Adam Kwapiński"],
-      "type": ["Thematic"]
+      "type": "Thematic"
     },
     {
       "ranking": 6,
@@ -101,7 +101,7 @@
       "average": 8.1,
       "averageWeight": 2.99,
       "designer": ["Mac Gerdts"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 7,
@@ -118,7 +118,7 @@
       "average": 8.1,
       "averageWeight": 2.46,
       "designer": ["Elizabeth Hargrave"],
-      "type": ["Family", "Strategy"]
+      "type": "Family"
     },
     {
       "ranking": 8,
@@ -135,7 +135,7 @@
       "average": 8.1,
       "averageWeight": 3.79,
       "designer": ["Cole Wehrle"],
-      "type": ["Strategy", "Wargames"]
+      "type": "Strategy"
     },
     {
       "ranking": 9,
@@ -152,7 +152,7 @@
       "average": 8.1,
       "averageWeight": 4.36,
       "designer": ["Vlaada Chvátil"],
-      "type": ["Strategy", "Thematic"]
+      "type": "Strategy"
     },
     {
       "ranking": 10,
@@ -169,7 +169,7 @@
       "average": 8.2,
       "averageWeight": 4.11,
       "designer": ["Tommaso Battista", "Simone Luciani"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 11,
@@ -186,7 +186,7 @@
       "average": 8.0,
       "averageWeight": 2.89,
       "designer": ["Jamey Stegmaier", "Alan Stone"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 12,
@@ -203,7 +203,7 @@
       "average": 8.4,
       "averageWeight": 3.85,
       "designer": ["Josh J. Carlson", "Adam Carlson"],
-      "type": ["Strategy", "Thematic"]
+      "type": "Strategy"
     },
     {
       "ranking": 13,
@@ -220,7 +220,7 @@
       "average": 8.1,
       "averageWeight": 4.2,
       "designer": ["Jeroen Doumen", "Joris Wiersinga"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 14,
@@ -237,7 +237,7 @@
       "average": 8.1,
       "averageWeight": 2.92,
       "designer": ["Michael Boggs", "Nate French", "Caleb Grace"],
-      "type": ["Customizable"]
+      "type": "Customizable"
     },
     {
       "ranking": 15,
@@ -254,7 +254,7 @@
       "average": 8.2,
       "averageWeight": 3.85,
       "designer": ["Cole Wehrle"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 16,
@@ -271,7 +271,7 @@
       "average": 8.1,
       "averageWeight": 3.6,
       "designer": ["Vladimír Suchý"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 17,
@@ -288,7 +288,7 @@
       "average": 8.0,
       "averageWeight": 3.78,
       "designer": ["Uwe Rosenberg"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 18,
@@ -305,7 +305,7 @@
       "average": 8.0,
       "averageWeight": 1.83,
       "designer": ["Randy Flynn"],
-      "type": ["Abstract", "Family"]
+      "type": "Abstract"
     },
     {
       "ranking": 19,
@@ -322,7 +322,7 @@
       "average": 8.1,
       "averageWeight": 4.02,
       "designer": ["Dávid Turczi", "Richard Amann", "Viktor Peter"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 20,
@@ -339,7 +339,7 @@
       "average": 7.9,
       "averageWeight": 3.64,
       "designer": ["Uwe Rosenberg"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 21,
@@ -356,7 +356,7 @@
       "average": 8.1,
       "averageWeight": 2.19,
       "designer": ["Asger Harding Granerud", "Daniel Skjold Pedersen"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 22,
@@ -373,7 +373,7 @@
       "average": 8.2,
       "averageWeight": 4.59,
       "designer": ["Vital Lacerda"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 23,
@@ -390,7 +390,7 @@
       "average": 8.0,
       "averageWeight": 3.9,
       "designer": ["Alexander Pfister"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 24,
@@ -407,7 +407,7 @@
       "average": 7.8,
       "averageWeight": 3.26,
       "designer": ["Friedemann Friese"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 25,
@@ -424,7 +424,7 @@
       "average": 7.8,
       "averageWeight": 1.95,
       "designer": ["Wolfgang Warsch"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 26,
@@ -441,7 +441,7 @@
       "average": 7.9,
       "averageWeight": 3.72,
       "designer": ["Uwe Rosenberg"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 27,
@@ -458,7 +458,7 @@
       "average": 8.0,
       "averageWeight": 4.26,
       "designer": ["Vital Lacerda"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 28,
@@ -475,7 +475,7 @@
       "average": 7.9,
       "averageWeight": 3.21,
       "designer": ["Virginio Gigli", "Simone Luciani"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 29,
@@ -492,7 +492,7 @@
       "average": 8.2,
       "averageWeight": 3.1,
       "designer": ["Dan Hallagan"],
-      "type": ["Strategy", "Thematic"]
+      "type": "Strategy"
     },
     {
       "ranking": 30,
@@ -509,7 +509,7 @@
       "average": 7.8,
       "averageWeight": 2.22,
       "designer": ["Paul Dennen"],
-      "type": ["Family", "Strategy"]
+      "type": "Family"
     },
     {
       "ranking": 31,
@@ -526,7 +526,7 @@
       "average": 7.8,
       "averageWeight": 4.04,
       "designer": ["Chad Jensen"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 32,
@@ -543,7 +543,7 @@
       "average": 7.8,
       "averageWeight": 1.81,
       "designer": ["Thomas Dagenais-Lespérance"],
-      "type": ["Party"]
+      "type": "Party"
     },
     {
       "ranking": 33,
@@ -560,7 +560,7 @@
       "average": 7.7,
       "averageWeight": 3.34,
       "designer": ["Sebastian Bleasdale", "Richard Breese"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 34,
@@ -577,7 +577,7 @@
       "average": 7.7,
       "averageWeight": 3.46,
       "designer": ["Sébastien Dujardin", "Xavier Georges", "Alain Orban"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 35,
@@ -594,7 +594,7 @@
       "average": 7.9,
       "averageWeight": 3.9,
       "designer": ["Alexander Pfister"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 36,
@@ -611,7 +611,7 @@
       "average": 7.7,
       "averageWeight": 3.4,
       "designer": ["Helmut Ohley", "Leonhard Lonny Orgler"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 37,
@@ -628,7 +628,7 @@
       "average": 7.6,
       "averageWeight": 1.6,
       "designer": ["Uwe Rosenberg"],
-      "type": ["Abstract", "Family"]
+      "type": "Abstract"
     },
     {
       "ranking": 38,
@@ -645,7 +645,7 @@
       "average": 8.0,
       "averageWeight": 3.82,
       "designer": ["Xavier Georges"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 39,
@@ -662,7 +662,7 @@
       "average": 7.8,
       "averageWeight": 3.64,
       "designer": ["Stefan Feld"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 40,
@@ -679,7 +679,7 @@
       "average": 7.6,
       "averageWeight": 2.35,
       "designer": ["Donald X. Vaccarino"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 41,
@@ -696,7 +696,7 @@
       "average": 8.1,
       "averageWeight": 4.02,
       "designer": ["Vital Lacerda"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 42,
@@ -713,7 +713,7 @@
       "average": 7.7,
       "averageWeight": 2.36,
       "designer": ["Frank West"],
-      "type": ["Family", "Strategy"]
+      "type": "Family"
     },
     {
       "ranking": 43,
@@ -730,7 +730,7 @@
       "average": 7.7,
       "averageWeight": 1.26,
       "designer": ["Vlaada Chvátil"],
-      "type": ["Party"]
+      "type": "Party"
     },
     {
       "ranking": 44,
@@ -747,7 +747,7 @@
       "average": 7.7,
       "averageWeight": 2.13,
       "designer": ["Henry Audubon"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 45,
@@ -764,7 +764,7 @@
       "average": 7.6,
       "averageWeight": 2.34,
       "designer": ["Andreas Steiger"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 46,
@@ -781,7 +781,7 @@
       "average": 7.6,
       "averageWeight": 1.04,
       "designer": ["Ludovic Roudy, Bruno Sautter"],
-      "type": ["Party"]
+      "type": "Party"
     },
     {
       "ranking": 47,
@@ -798,7 +798,7 @@
       "average": 7.8,
       "averageWeight": 2.26,
       "designer": ["Matthias Cramer"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 48,
@@ -815,7 +815,7 @@
       "average": 7.6,
       "averageWeight": 3.93,
       "designer": ["Matúš Kotry"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 49,
@@ -832,7 +832,7 @@
       "average": 7.5,
       "averageWeight": 2.46,
       "designer": ["Bernd Brunnhofer"],
-      "type": ["Family", "Strategy"]
+      "type": "Family"
     },
     {
       "ranking": 50,
@@ -849,7 +849,7 @@
       "average": 7.5,
       "averageWeight": 1.92,
       "designer": ["Alan R. Moon"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 51,
@@ -866,7 +866,7 @@
       "average": 7.5,
       "averageWeight": 2.58,
       "designer": ["Rüdiger Dorn"],
-      "type": ["Family", "Strategy"]
+      "type": "Family"
     },
     {
       "ranking": 52,
@@ -883,7 +883,7 @@
       "average": 7.5,
       "averageWeight": 1.84,
       "designer": ["Benoit Turpin"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 53,
@@ -900,7 +900,7 @@
       "average": 7.5,
       "averageWeight": 1.47,
       "designer": ["Sébastien Pauchon"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 54,
@@ -917,7 +917,7 @@
       "average": 7.5,
       "averageWeight": 2.28,
       "designer": ["Richard Borg"],
-      "type": ["Wargames"]
+      "type": "Wargames"
     },
     {
       "ranking": 55,
@@ -934,7 +934,7 @@
       "average": 8.2,
       "averageWeight": 3.86,
       "designer": ["Simone Luciani", "Nestore Mangone"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 56,
@@ -951,7 +951,7 @@
       "average": 7.8,
       "averageWeight": 2.23,
       "designer": ["Klemens Kalicki"],
-      "type": ["Family", "Strategy"]
+      "type": "Family"
     },
     {
       "ranking": 57,
@@ -968,7 +968,7 @@
       "average": 7.5,
       "averageWeight": 2.77,
       "designer": ["Ted Alspach"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 58,
@@ -985,7 +985,7 @@
       "average": 7.5,
       "averageWeight": 3.07,
       "designer": ["Inka Brand", "Markus Brand"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 59,
@@ -1002,7 +1002,7 @@
       "average": 7.5,
       "averageWeight": 2.29,
       "designer": ["Reiner Knizia"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 60,
@@ -1019,7 +1019,7 @@
       "average": 7.6,
       "averageWeight": 2.34,
       "designer": ["Urs Hostettler"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 61,
@@ -1036,7 +1036,7 @@
       "average": 7.6,
       "averageWeight": 3.25,
       "designer": ["Flaminia Brasini", "Virginio Gigli"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 62,
@@ -1053,7 +1053,7 @@
       "average": 7.6,
       "averageWeight": 2.17,
       "designer": ["Kevin Russ"],
-      "type": ["Abstract", "Family"]
+      "type": "Abstract"
     },
     {
       "ranking": 63,
@@ -1070,7 +1070,7 @@
       "average": 7.6,
       "averageWeight": 3.04,
       "designer": ["Jonathan Gilmour", "Brian Lewis"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 64,
@@ -1087,7 +1087,7 @@
       "average": 7.5,
       "averageWeight": 1.58,
       "designer": ["Tobey Ho"],
-      "type": ["Party"]
+      "type": "Party"
     },
     {
       "ranking": 65,
@@ -1104,7 +1104,7 @@
       "average": 7.5,
       "averageWeight": 1.11,
       "designer": ["Johannes Sich"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 66,
@@ -1121,7 +1121,7 @@
       "average": 7.9,
       "averageWeight": 3.3,
       "designer": ["Uwe Rosenberg"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 67,
@@ -1138,7 +1138,7 @@
       "average": 7.6,
       "averageWeight": 1.46,
       "designer": ["Steffen Bogen"],
-      "type": ["Family", "Party"]
+      "type": "Family"
     },
     {
       "ranking": 68,
@@ -1155,7 +1155,7 @@
       "average": 7.4,
       "averageWeight": 2.33,
       "designer": ["Vlaada Chvátil"],
-      "type": ["Thematic"]
+      "type": "Thematic"
     },
     {
       "ranking": 69,
@@ -1172,7 +1172,7 @@
       "average": 7.6,
       "averageWeight": 3.73,
       "designer": ["Stefan Feld"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 70,
@@ -1189,7 +1189,7 @@
       "average": 7.8,
       "averageWeight": 2.11,
       "designer": ["Mr. Bistro", "J. Arthur Ellis", "Isaac Vega"],
-      "type": ["Thematic"]
+      "type": "Thematic"
     },
     {
       "ranking": 71,
@@ -1206,7 +1206,7 @@
       "average": 7.6,
       "averageWeight": 3.08,
       "designer": ["Matthias Cramer", "Stefan Malz", "Louis Malz"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 72,
@@ -1223,7 +1223,7 @@
       "average": 7.5,
       "averageWeight": 2.24,
       "designer": ["Hal Duncan", "Ruth Veevers"],
-      "type": ["Family", "Strategy"]
+      "type": "Family"
     },
     {
       "ranking": 73,
@@ -1240,7 +1240,7 @@
       "average": 7.3,
       "averageWeight": 2.32,
       "designer": ["John Yianni"],
-      "type": ["Abstract"]
+      "type": "Abstract"
     },
     {
       "ranking": 74,
@@ -1257,7 +1257,7 @@
       "average": 7.6,
       "averageWeight": 1.81,
       "designer": ["Andrea Chiarvesio", "Eric M. Lang"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 75,
@@ -1274,7 +1274,7 @@
       "average": 7.3,
       "averageWeight": 1.8,
       "designer": ["Emerson Matsuuchi"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 76,
@@ -1291,7 +1291,7 @@
       "average": 7.3,
       "averageWeight": 2.78,
       "designer": ["Michael Kiesling", "Wolfgang Kramer"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 77,
@@ -1308,7 +1308,7 @@
       "average": 7.2,
       "averageWeight": 1.19,
       "designer": ["Seiji Kanai"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 78,
@@ -1325,7 +1325,7 @@
       "average": 7.3,
       "averageWeight": 1.25,
       "designer": ["Stefan Dorra"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 79,
@@ -1342,7 +1342,7 @@
       "average": 7.3,
       "averageWeight": 2.5,
       "designer": ["Sid Sackson"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 80,
@@ -1359,7 +1359,7 @@
       "average": 7.5,
       "averageWeight": 1.7,
       "designer": ["Brent Beck", "Jeffrey Beck"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 81,
@@ -1376,7 +1376,7 @@
       "average": 7.3,
       "averageWeight": 2.13,
       "designer": ["Dan Cassar"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 82,
@@ -1393,7 +1393,7 @@
       "average": 7.4,
       "averageWeight": 2.25,
       "designer": ["Karsten Hartwig"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 83,
@@ -1410,7 +1410,7 @@
       "average": 7.3,
       "averageWeight": 1.66,
       "designer": ["Phil Walker-Harding"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 84,
@@ -1427,7 +1427,7 @@
       "average": 7.4,
       "averageWeight": 2.64,
       "designer": ["Gabriele Mari", "Gianluca Santopietro"],
-      "type": ["Strategy", "Thematic"]
+      "type": "Strategy"
     },
     {
       "ranking": 85,
@@ -1444,7 +1444,7 @@
       "average": 7.2,
       "averageWeight": 1.2,
       "designer": ["Jean-Louis Roubira"],
-      "type": ["Party"]
+      "type": "Party"
     },
     {
       "ranking": 86,
@@ -1461,7 +1461,7 @@
       "average": 7.4,
       "averageWeight": 2.0,
       "designer": ["Phil Walker-Harding"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 87,
@@ -1478,7 +1478,7 @@
       "average": 7.2,
       "averageWeight": 1.98,
       "designer": ["Antoine Bauza"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 88,
@@ -1495,7 +1495,7 @@
       "average": 7.8,
       "averageWeight": 2.43,
       "designer": ["Fabien Gridel", "Yoann Levet"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 89,
@@ -1512,7 +1512,7 @@
       "average": 7.6,
       "averageWeight": 3.39,
       "designer": ["Simone Luciani", "Nestore Mangone"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 90,
@@ -1529,7 +1529,7 @@
       "average": 7.4,
       "averageWeight": 3.11,
       "designer": ["Uwe Rosenberg"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 91,
@@ -1546,7 +1546,7 @@
       "average": 7.2,
       "averageWeight": 2.06,
       "designer": ["Peter McPherson"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 92,
@@ -1563,7 +1563,7 @@
       "average": 7.2,
       "averageWeight": 1.11,
       "designer": ["Hervé Marly"],
-      "type": ["Party"]
+      "type": "Party"
     },
     {
       "ranking": 93,
@@ -1580,7 +1580,7 @@
       "average": 7.4,
       "averageWeight": 2.19,
       "designer": ["John D. Clair"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 94,
@@ -1597,7 +1597,7 @@
       "average": 7.5,
       "averageWeight": 2.11,
       "designer": ["Brett Sobol", "Seth Van Orden"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 95,
@@ -1614,7 +1614,7 @@
       "average": 7.3,
       "averageWeight": 1.12,
       "designer": ["Alex Hague", "Justin Vickers", "Wolfgang Warsch"],
-      "type": ["Party"]
+      "type": "Party"
     },
     {
       "ranking": 96,
@@ -1631,7 +1631,7 @@
       "average": 7.6,
       "averageWeight": 3.92,
       "designer": ["Ryan Courtney"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 97,
@@ -1648,7 +1648,7 @@
       "average": 7.2,
       "averageWeight": 1.15,
       "designer": ["Molly Johnson", "Robert Melvin", "Shawn Stankewich"],
-      "type": ["Family"]
+      "type": "Family"
     },
     {
       "ranking": 98,
@@ -1665,7 +1665,7 @@
       "average": 7.9,
       "averageWeight": 2.97,
       "designer": ["Dave Beck"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     },
     {
       "ranking": 99,
@@ -1682,7 +1682,7 @@
       "average": 7.4,
       "averageWeight": 1.22,
       "designer": ["Jay Cormier", "Sen-Foong Lim"],
-      "type": ["Family", "Party"]
+      "type": "Family"
     },
     {
       "ranking": 100,
@@ -1699,7 +1699,7 @@
       "average": 7.1,
       "averageWeight": 2.16,
       "designer": ["Friedemann Friese"],
-      "type": ["Strategy"]
+      "type": "Strategy"
     }
   ]
 }
