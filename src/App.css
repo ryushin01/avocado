@@ -65,13 +65,6 @@
   }
 
   .btn-default {
-    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700;
-  }
-
-  .btn-primary {
-    @apply bg-primary py-2 px-4  w-full text-[20px] h-[60px] font-bold tracking-[6px] rounded-lg cursor-pointer lg:h-[90px] lg:text-[30px] lg:py-3 lg:px-6 active:relative top-[1px];
-  }
-  .btn-secondary {
-    @apply bg-secondary py-2 px-4 w-full text-[20px] h-[60px] font-bold tracking-[6px] rounded-lg cursor-pointer lg:h-[90px] lg:text-[30px] lg:py-3 lg:px-6 active:relative top-[1px];
+    @apply py-2 px-4  w-full text-[20px] h-[60px] font-bold tracking-[6px] rounded-lg cursor-pointer lg:h-[90px] lg:text-[30px] lg:py-3 lg:px-6;
   }
 }

@@ -12,7 +12,7 @@ const Nav = ({ toggleSideNav, handleSideNav }) => {
   };
 
   const getBoardgameTypeData = () => {
-    fetch('/avocado/data/boardgameTypeData.json;', {
+    fetch('/avocado/data/boardgameTypeData.json', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
