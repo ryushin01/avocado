@@ -9,7 +9,7 @@
 
 const Button = ({
   type = 'button',
-  className,
+  className = 'btn-default',
   content,
   onClick,
   color,
