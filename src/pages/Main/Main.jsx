@@ -1,4 +1,5 @@
-/* eslint-disable no-unused-vars */
+// 필터 시 평탄화 진행 필요?
+
 import { useEffect, useState } from 'react';
 
 /**

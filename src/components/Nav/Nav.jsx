@@ -119,7 +119,7 @@ const Nav = ({ toggleSideNav, handleSideNav }) => {
               (주) 아보카도
             </li>
             <li className="text-[11px] lg:text-base lg:leading-8 text-grayscaleB">
-              대표자 | 김기영
+              대표자 | 류창선
             </li>
             <li className="text-[11px] lg:text-base lg:leading-8 text-grayscaleB">
               주소 | 서울특별시 중구 한강대로 416 위워크 서울스퀘어점
