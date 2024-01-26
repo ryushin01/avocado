@@ -39,38 +39,43 @@ const Header = ({ isOverHero }) => {
 
   return (
     <header
-      className={`fixed z-30 top-0 inset-x-0 flex justify-between items-center h-12 lg:h-20 px-5 lg:px-[60px] text-xl lg:text-3xl transition-all duration-500 ease-in-out text-grayscaleG lg:bg-grayscaleG lg:rounded-lg lg:overflow-hidden after:content-[''] after:absolute after:top-0 after:inset-x-0 after:h-0 after:bg-grayscaleG after:transition-all after:duration-300 ${
+      className={`fixed z-30 top-0 inset-x-0 flex justify-between items-center h-12 lg:h-20 px-5 lg:px-0 text-xl lg:text-3xl transition-all duration-500 ease-in-out text-grayscaleG lg:rounded-lg lg:overflow-hidden after:content-[''] after:absolute after:top-0 after:inset-x-0 after:h-0 after:bg-grayscaleG after:transition-all after:duration-300 ${
         isOverHero ? 'scrolled' : ''
       }`}
     >
-      <Link
-        // to="/"
-        onClick={modalHandler}
-        className="relative z-20 tracking-[8px]"
-      >
-        avocado
-      </Link>
+      <div className="grid grid-cols-2 lg:grid-cols-4 w-full">
+        <div className="flex items-center lg:pl-[60px]">
+          <Link
+            // to="/"
+            onClick={modalHandler}
+            className="relative z-20 tracking-[8px]"
+          >
+            avocado
+          </Link>
+        </div>
+        <Portal>
+          {modalOpen && (
+            <Modal
+              data={<Detail onClose={modalHandler} />}
+              onClose={modalHandler}
+              modalOpen={modalOpen}
+            />
+          )}
+        </Portal>
 
-      <Portal>
-        {modalOpen && (
-          <Modal
-            data={<Detail onClose={modalHandler} />}
-            onClose={modalHandler}
-            modalOpen={modalOpen}
-          />
-        )}
-      </Portal>
-
-      <button
-        type="button"
-        onClick={handleSideNav}
-        className="relative z-20 flex justify-end items-center w-12 h-12 lg:w-20 lg:h-20"
-      >
-        <IconMenu className="w-6 h-6 lg:w-10 lg:h-10 lg:fill-grayscaleA" />
-      </button>
-      {toggleSideNav && (
-        <Nav toggleSideNav={toggleSideNav} handleSideNav={handleSideNav} />
-      )}
+        <div className="lg:col-span-3 flex justify-end lg:bg-grayscaleG lg:rounded-lg lg:pr-[60px]">
+          <button
+            type="button"
+            onClick={handleSideNav}
+            className="relative z-20 flex justify-end items-center w-12 h-12 lg:w-20 lg:h-20"
+          >
+            <IconMenu className="w-6 h-6 lg:w-10 lg:h-10 lg:fill-grayscaleA" />
+          </button>
+          {toggleSideNav && (
+            <Nav toggleSideNav={toggleSideNav} handleSideNav={handleSideNav} />
+          )}
+        </div>
+      </div>
     </header>
   );
 };
