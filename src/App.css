@@ -2,17 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-/**
- * 사용자 정의 재사용 클래스 패턴
- * @layer 안의 @apply로 Tailwind CSS 클래스 여럿을 묶어서 선언하여 아무 곳에서나 쓸 수 있습니다.
- * 샘플 버튼의 경우는 Button 컴포넌트의 공통 스타일링 예시이며, <Button className="btn-default" />만으로 여러 클래스를 처리합니다.
- */
+@font-face {
+  font-family: 'D2Coding';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @layer base {
   html,
   body {
     background-color: #111;
-    font-family: 'Nanum Gothic Coding', 'sans-serif';
+    font-family: 'D2Coding', 'sans-serif';
   }
 
   svg {
@@ -69,5 +71,32 @@
 
   .btn-default {
     @apply py-2 px-4  w-full text-[20px] h-[60px] font-bold tracking-[6px] rounded-lg cursor-pointer lg:h-[90px] lg:text-[30px] lg:py-3 lg:px-6;
+  }
+}
+
+@layer utilities {
+  .hero-swiper.swiper-horizontal {
+    .swiper-pagination-progressbar {
+      @apply w-auto top-auto left-[60px] bottom-[60px] right-0 bg-grayscaleG/0 border-b border-solid border-grayscaleG;
+    }
+
+    .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+      @apply bg-grayscaleG;
+    }
+  }
+
+  .main-swiper {
+    .swiper-button-prev,
+    .swiper-button-next {
+      @apply w-10 h-10 bg-cover after:hidden;
+    }
+
+    .swiper-button-prev {
+      @apply bg-[url('/images/common/icon_arrow_left.png')];
+    }
+
+    .swiper-button-next {
+      @apply bg-[url('/images/common/icon_arrow_right.png')];
+    }
   }
 }

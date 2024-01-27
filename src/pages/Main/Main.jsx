@@ -1,6 +1,10 @@
 // 필터 시 평탄화 진행 필요?
 
 import { useEffect, useState } from 'react';
+// import { customAxios } from '../../modules/customAxios/customAxios';
+// import { API } from '../../config';
+import HeroSection from './components/HeroSection/HeroSection';
+import MainWrapper from './components/MainWrapper/MainWrapper';
 
 /**
  * Main.js logics
@@ -8,31 +12,31 @@ import { useEffect, useState } from 'react';
  */
 
 const Main = () => {
-  const [boardgameData, setBoardgameData] = useState([]);
+  // const [boardgameData, setBoardgameData] = useState([]);
 
-  const getBoardgameData = () => {
-    fetch('/avocado/data/boardgameData.json', {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-        authorization: localStorage.getItem('accessToken'),
-      },
-    })
-      .then(response => response.json())
-      .then(result => {
-        if (result.message === 'SUCCESS') {
-          setBoardgameData(result.data);
-        }
-      });
-  };
+  // const getBoardgameData = async () => {
+  //   try {
+  //     const response = await customAxios.get(API.BOARDGAME);
+  //     setBoardgameData(response.data.result);
+  //   } catch (error) {
+  //     alert('Main.jsx > boardgameData.json 에러입니다.');
+  //   }
+  // };
 
-  useEffect(() => {
-    getBoardgameData();
-  }, []);
+  // useEffect(() => {
+  //   getBoardgameData();
+  // }, []);
 
-  console.log(boardgameData);
+  // console.log(boardgameData);
 
-  return <div className="h-[2000px]">test</div>;
+  return (
+    <main>
+      <div className="grid grid-cols-2 lg:grid-cols-5 w-full">
+        <HeroSection />
+        <MainWrapper />
+      </div>
+    </main>
+  );
 };
 
 export default Main;

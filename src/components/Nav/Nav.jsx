@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { customAxios } from '../../modules/customAxios/customAxios';
+import { API } from '../../config';
 import { ReactComponent as IconClose } from '../../images/common/icon_close.svg';
 
 const MENU_ARRAY = [{ name: 'GAME' }, { name: 'ACC' }, { name: 'EVENT' }];
@@ -11,20 +13,13 @@ const Nav = ({ toggleSideNav, handleSideNav }) => {
     clickTab(index);
   };
 
-  const getBoardgameTypeData = () => {
-    fetch('/avocado/data/boardgameTypeData.json', {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-        authorization: localStorage.getItem('accessToken'),
-      },
-    })
-      .then(response => response.json())
-      .then(result => {
-        if (result.message === 'SUCCESS') {
-          setBoardgameTypeData(result.data);
-        }
-      });
+  const getBoardgameTypeData = async () => {
+    try {
+      const response = await customAxios.get(API.BOARDGAME_TYPE);
+      setBoardgameTypeData(response.data.result);
+    } catch (error) {
+      alert('Nav.jsx > boardgameTypeData.json 에러입니다.');
+    }
   };
 
   const aa = typeId => {

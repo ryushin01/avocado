@@ -1,47 +1,45 @@
 {
   "message": "SUCCESS",
-  "data": [
+  "result": [
     {
       "typeId": 1,
-      "name": "전략 게임",
-      "englishName": "Strategy",
-      "based": "1"
+      "name": "전체 게임",
+      "englishName": "All"
     },
     {
       "typeId": 2,
-      "name": "테마 게임",
-      "englishName": "Thematic",
-      "based": "2"
+      "name": "전략 게임",
+      "englishName": "Strategy"
     },
     {
       "typeId": 3,
-      "name": "가족 게임",
-      "englishName": "Family",
-      "based": "2"
+      "name": "테마 게임",
+      "englishName": "Thematic"
     },
     {
       "typeId": 4,
-      "name": "파티 게임",
-      "englishName": "Party",
-      "based": "2"
+      "name": "가족 게임",
+      "englishName": "Family"
     },
     {
       "typeId": 5,
-      "name": "추상 전략 게임",
-      "englishName": "Abstract",
-      "based": "1"
+      "name": "파티 게임",
+      "englishName": "Party"
     },
     {
       "typeId": 6,
-      "name": "워게임",
-      "englishName": "Wargames",
-      "based": "1"
+      "name": "추상 전략 게임",
+      "englishName": "Abstract"
     },
     {
       "typeId": 7,
+      "name": "워게임",
+      "englishName": "Wargames"
+    },
+    {
+      "typeId": 8,
       "name": "컬렉터블 게임",
-      "englishName": "Customizable",
-      "based": "2"
+      "englishName": "Customizable"
     }
   ]
 }

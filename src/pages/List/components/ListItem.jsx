@@ -16,35 +16,23 @@ const ListItem = ({
   ...props
 }) => {
   return (
-    <div className="w-full h-full bg-grayscaleG lg:w-full" {...props}>
+    <div className="relative w-full h-full bg-grayscaleG lg:w-full" {...props}>
       <div className="flex w-full lg:w-full">
         <button
           type="button"
-          className="relative w-full pb-[150%]"
+          className="relative w-full pb-[150%] bg-grayscaleF text-left after:content-[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:h-1/2 after:bg-gradient-to-b after:from-grayscaleF/0 after:to-grayscaleA/30"
           onClick={() => {
             onClick(ranking);
           }}
         >
           <img
-            className="absolute top-0 w-full h-full aspect-square object-cover"
+            className="absolute top-0 w-full h-full p-4 object-contain"
             src={image}
             alt={`${name}의 표지이미지`}
           />
-        </button>
-      </div>
-      <div className="w-full">
-        <button
-          type="button"
-          className="w-full py-5 px-4"
-          onClick={() => {
-            onClick(ranking);
-          }}
-        >
-          <h3 className="text-[12px] font-bold text-left lg:text-[12px]">
-            {name}
-          </h3>
-          <span className="text-[12px] block text-left lg:text-[12px]">
-            {yearReleased}
+          <span className="flex flex-col items-start absolute left-0 bottom-0 right-0 z-10 p-5 text-grayscaleG">
+            <h3 className="w-full font-bold truncate">{name}</h3>
+            <span>{yearReleased}</span>
           </span>
         </button>
       </div>

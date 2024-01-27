@@ -6,6 +6,8 @@ export default {
       4: '1rem',
       6: '1.5rem',
       8: '2rem',
+      cover: 'cover',
+      contain: 'contain',
     },
     backgroundPosition: {
       'right-center': 'right center',
