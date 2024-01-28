@@ -20,7 +20,7 @@ const ENDPOINTS = [
 ];
 
 const MainWrapper = () => {
-  // const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
   const [allBoardgameData, setAllBoardgameData] = useState([]);
   let allBoardgameDataArr = [];
 
@@ -41,14 +41,14 @@ const MainWrapper = () => {
   };
 
   useEffect(() => {
-    // setTimeout(() => setLoading(false), 2900);
+    setTimeout(() => setLoading(false), 2900);
     getAllBoardgameData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <>
-      {/* {loading && <Loading />} */}
+      {loading && <Loading />}
       <div className="lg:col-span-4 lg:pt-20">
         {allBoardgameData.map(
           (

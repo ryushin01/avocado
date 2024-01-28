@@ -1,6 +1,6 @@
-> 이 프로젝트는 국내 보드 게임 커뮤니티를 타겟으로 삼아 개발하는 것을 목표로 삼습니다. CRUD의 경우는 백엔드 개발 부제로 인하여 제외했습니다.
+> 국내 보드 게임 커뮤니티 개발이 이 프로젝트의 주된 목표입니다. CRUD의 경우는 백엔드 개발 부제로 인하여 제외했습니다.
 
-![sprout_1](https://github.com/ryushin01/sprout/assets/141554987/feb3ed0e-77c0-4726-991b-17161bbd3a70)
+![avocado_1](https://github.com/ryushin01/avocado/assets/141554987/cc23abc7-c4b5-462e-bdfd-32a97056bae5)
 
 - 기술 스택
 
