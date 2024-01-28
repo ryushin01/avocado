@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { customAxios } from '../../modules/customAxios/customAxios';
 import { API } from '../../config';
 import Footer from '../Footer/Footer';
@@ -21,10 +22,6 @@ const Nav = ({ toggleSideNav, handleSideNav }) => {
     } catch (error) {
       alert('Nav.jsx > boardgameTypeData.json 에러입니다.');
     }
-  };
-
-  const aa = typeId => {
-    // console.log(typeId);
   };
 
   useEffect(() => {
@@ -70,19 +67,18 @@ const Nav = ({ toggleSideNav, handleSideNav }) => {
         </div>
         <div className="px-5 py-3.5 lg:px-[60px] lg:py-[40px] rounded-lg border-y border-solid border-grayscaleB bg-grayscaleG">
           <ul>
-            {boardgameTypeData.map(({ typeId, englishName }, index) => {
+            {boardgameTypeData.map(({ type }, index) => {
               return (
                 <li
                   key={index}
                   className="border-b-[1px] border-solid border-grayscaleF last:border-b-0"
                 >
-                  <button
-                    type="button"
-                    className="w-full h-[54px] lg:h-20 text-[14px] lg:text-xl font-bold text-grayscaleB bg-[url('/images/common/icon_arrow_right.svg')] bg-4 lg:bg-8 bg-no-repeat bg-right-center text-left"
-                    onClick={aa(typeId)}
+                  <Link
+                    to={`/list/${type}`}
+                    className="flex items-center w-full h-[54px] lg:h-20 text-[14px] lg:text-xl font-bold text-grayscaleB bg-[url('/images/common/icon_arrow_right.svg')] bg-4 lg:bg-8 bg-no-repeat bg-right-center text-left"
                   >
-                    {englishName.toUpperCase()}
-                  </button>
+                    {type.toUpperCase()}
+                  </Link>
                 </li>
               );
             })}

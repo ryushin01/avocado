@@ -34,14 +34,15 @@ const List = () => {
   useEffect(() => {
     setLoading(true);
     getBoardgameData();
+    document.body.style.overflow = '';
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [sort]);
+  }, [type, sort]);
 
   return (
     <>
       {loading && <Loading />}
       <main>
-        <div className="grid grid-cols-1 w-full pt-12 lg:grid-cols-6 lg:pt-0">
+        <div className="grid grid-cols-1 w-full lg:grid-cols-6">
           <Lnb boardgameTypeData={boardgameTypeData} setSort={setSort} />
           <ListWrapper boardgameData={boardgameData} />
         </div>

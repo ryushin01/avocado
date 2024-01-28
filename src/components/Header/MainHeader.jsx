@@ -1,41 +1,22 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from '../Nav/Nav';
-import Portal from '../Modal/Portal';
-import Modal from '../Modal/Modal';
-import Detail from '../Modal/contents/Detail';
 import { ReactComponent as IconMenu } from '../../images/common/icon_menu.svg';
 
 const Header = ({ isOverHero }) => {
   const [toggleSideNav, setToggleSideNav] = useState(false);
-  const [modalOpen, setModalOpen] = useState(false);
 
   const handleSideNav = () => {
     setToggleSideNav(prev => !prev);
   };
 
-  const modalHandler = () => {
-    setModalOpen(prev => !prev);
-  };
-
   useEffect(() => {
-    const close = e => {
-      if (e.keyCode === 27) {
-        setToggleSideNav(false);
-        setModalOpen(false);
-      }
-    };
-
-    window.addEventListener('keydown', close);
-  }, []);
-
-  useEffect(() => {
-    if (toggleSideNav || modalOpen) {
+    if (toggleSideNav) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
     }
-  }, [toggleSideNav, modalOpen]);
+  }, [toggleSideNav]);
 
   return (
     <header
@@ -45,23 +26,10 @@ const Header = ({ isOverHero }) => {
     >
       <div className="grid grid-cols-2 lg:grid-cols-6 w-full">
         <h1 className="flex items-center lg:pl-[60px] lg:col-span-2">
-          <Link
-            // to="/"
-            onClick={modalHandler}
-            className="relative z-20 tracking-[8px]"
-          >
+          <Link to="/" className="relative z-20 tracking-[8px]">
             avocado
           </Link>
         </h1>
-        <Portal>
-          {modalOpen && (
-            <Modal
-              data={<Detail onClose={modalHandler} />}
-              onClose={modalHandler}
-              modalOpen={modalOpen}
-            />
-          )}
-        </Portal>
 
         <div className="lg:col-span-4 flex justify-end lg:bg-grayscaleG lg:rounded-lg lg:pr-[60px] lg:border lg:border-solid lg:border-grayscaleB">
           <button

@@ -1,21 +1,13 @@
-/**
- * ListItem props list
- * @property {number} ranking                - 아이템의 아이디를 정의합니다.
- * @property {number} yearReleased           - 아이템의 출시년도를 정의합니다.
- * @property {string} image                  - 아이템의 이미지url 데이터를 정의합니다.
- * @property {string} name                   - 아이템의 제목을 정의합니다.
- * @property {function} onClick              - 버튼 클릭 시 실행할 함수를 위해 미리 정의합니다.
- */
+import { useNavigate } from 'react-router-dom';
 
-const ListItem = ({
-  ranking,
-  image,
-  name,
-  yearReleased,
-  onClick,
-  ...props
-}) => {
-  // useNavigate 라우터 이동
+const ListItem = ({ ranking, image, name, yearReleased, ...props }) => {
+  const navigate = useNavigate();
+
+  const goToDetail = () => {
+    navigate(`/detail/${ranking}`, {
+      state: { ranking: ranking },
+    });
+  };
 
   return (
     <div className="relative w-full h-full bg-grayscaleG lg:w-full" {...props}>
@@ -23,9 +15,7 @@ const ListItem = ({
         <button
           type="button"
           className="relative w-full pb-[150%] bg-grayscaleF text-left after:content-[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:h-1/2 after:bg-gradient-to-b after:from-grayscaleF/0 after:to-grayscaleA/30"
-          onClick={() => {
-            onClick(ranking);
-          }}
+          onClick={goToDetail}
         >
           <img
             className="absolute top-0 w-full h-full p-4 object-contain"

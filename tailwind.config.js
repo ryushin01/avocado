@@ -7,6 +7,8 @@ export default {
       6: '1.5rem',
       8: '2rem',
       '20%': '20% auto',
+      '25%': '25% auto',
+      '33%': '33.3333% auto',
       '50%': '50% auto',
       cover: 'cover',
       contain: 'contain',

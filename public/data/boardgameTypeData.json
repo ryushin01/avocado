@@ -2,44 +2,32 @@
   "message": "SUCCESS",
   "result": [
     {
-      "id": 1,
-      "name": "전체 게임",
-      "englishName": "All"
-    },
-    {
-      "id": 2,
       "name": "전략 게임",
-      "englishName": "Strategy"
+      "type": "Strategy"
     },
     {
-      "id": 3,
       "name": "테마 게임",
-      "englishName": "Thematic"
+      "type": "Thematic"
     },
     {
-      "id": 4,
       "name": "가족 게임",
-      "englishName": "Family"
+      "type": "Family"
     },
     {
-      "id": 5,
       "name": "파티 게임",
-      "englishName": "Party"
+      "type": "Party"
     },
     {
-      "id": 6,
       "name": "추상 전략 게임",
-      "englishName": "Abstract"
+      "type": "Abstract"
     },
     {
-      "id": 7,
       "name": "워게임",
-      "englishName": "Wargames"
+      "type": "Wargames"
     },
     {
-      "id": 8,
       "name": "컬렉터블 게임",
-      "englishName": "Customizable"
+      "type": "Customizable"
     }
   ]
 }

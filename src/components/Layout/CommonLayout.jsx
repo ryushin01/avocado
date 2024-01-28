@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import MainHeader from '../Header/MainHeader';
-import Footer from '../Footer/Footer';
-import TopButton from '../TopButton/TopButton';
 
 /**
  * CommonLayout.js logics
@@ -15,7 +13,6 @@ const CommonLayout = () => {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
   const [innerHeight, setInnerHeight] = useState(window.innerHeight);
   const [isOverHero, setIsOverHero] = useState(false);
-  const [isTopButton, setIsTopButton] = useState(false);
   const [isMain, setIsMain] = useState(false);
   const { pathname } = useLocation();
   const breakpoint = 1024;
@@ -28,8 +25,6 @@ const CommonLayout = () => {
     if (innerWidth < breakpoint) {
       window.scrollY > innerHeight ? setIsOverHero(true) : setIsOverHero(false);
     }
-
-    window.scrollY > innerHeight ? setIsTopButton(true) : setIsTopButton(false);
   };
 
   useEffect(() => {
@@ -57,8 +52,6 @@ const CommonLayout = () => {
     <>
       {!isMain && <MainHeader isOverHero={isOverHero} />}
       <Outlet />
-      <Footer />
-      <TopButton isTopButton={isTopButton} />
     </>
   );
 };
