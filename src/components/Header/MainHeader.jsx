@@ -38,7 +38,6 @@ const Header = ({ isOverHero }) => {
   }, [toggleSideNav, modalOpen]);
 
   return (
-    // lg:overflow-hidden lg:border lg:border-solid lg:border-grayscaleB
     <header
       className={`fixed z-30 top-0 inset-x-0 flex justify-between items-center  h-12 lg:h-20 px-5 lg:px-0 text-xl lg:text-3xl transition-all duration-500 ease-in-out text-grayscaleG lg:rounded-lg after:content-[''] after:absolute after:top-0 after:inset-x-0 after:h-0 after:bg-grayscaleG after:transition-all after:duration-300 ${
         isOverHero ? 'scrolled' : ''

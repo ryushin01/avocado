@@ -3,6 +3,7 @@ const BASE_URL = '/avocado/data';
 export const API = {
   HERO: `/heroData.json`,
   BOARDGAME_TYPE: `/boardgameTypeData.json`,
+  FILTER: `/filterData.json`,
 
   // BASE_URL이 따로 필요한 케이스
   BOARDGAME: `${BASE_URL}/boardgameData.json`,

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import MainHeader from '../Header/MainHeader';
+import Footer from '../Footer/Footer';
 import TopButton from '../TopButton/TopButton';
 
 /**
@@ -56,6 +57,7 @@ const CommonLayout = () => {
     <>
       {!isMain && <MainHeader isOverHero={isOverHero} />}
       <Outlet />
+      <Footer />
       <TopButton isTopButton={isTopButton} />
     </>
   );

@@ -6,10 +6,13 @@ export default {
       4: '1rem',
       6: '1.5rem',
       8: '2rem',
+      '20%': '20% auto',
+      '50%': '50% auto',
       cover: 'cover',
       contain: 'contain',
     },
     backgroundPosition: {
+      'left-center': 'left center',
       'right-center': 'right center',
       center: 'center center',
     },

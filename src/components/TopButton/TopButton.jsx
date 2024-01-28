@@ -11,7 +11,7 @@ const TopButton = ({ isTopButton }) => {
     <button
       type="button"
       onClick={goToTop}
-      className={`btn-top fixed z-30 bottom-10 lg:bottom-[60px] right-5 lg:right-[60px] w-9 h-9 border border-solid border-grayscaleB bg-grayscaleG opacity-0 translate-y-5 transition-all duration-300 ${
+      className={`btn-top fixed z-30 bottom-10 lg:bottom-[60px] right-5 lg:right-[60px] w-9 h-9 lg:w-12 lg:h-12 border border-solid border-grayscaleB bg-grayscaleG opacity-0 translate-y-5 transition-all duration-300 ${
         isTopButton ? 'scrolled' : ''
       }`}
     >

@@ -15,6 +15,8 @@ const ListItem = ({
   onClick,
   ...props
 }) => {
+  // useNavigate 라우터 이동
+
   return (
     <div className="relative w-full h-full bg-grayscaleG lg:w-full" {...props}>
       <div className="flex w-full lg:w-full">
@@ -30,6 +32,13 @@ const ListItem = ({
             src={image}
             alt={`${name}의 표지이미지`}
           />
+          {ranking <= 10 && (
+            <img
+              src="/avocado/images/common/icon_top_ten.png"
+              alt="10위권 표시 아이콘"
+              className="absolute top-2 left-2 w-10 h-10"
+            />
+          )}
           <span className="flex flex-col items-start absolute left-0 bottom-0 right-0 z-10 p-5 text-grayscaleG">
             <h3 className="w-full font-bold truncate">{name}</h3>
             <span>{yearReleased}</span>
