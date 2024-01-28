@@ -1,0 +1,30 @@
+{
+  "message": "SUCCESS",
+  "result": [
+    {
+      "content": "보드게임긱 Top 100위 바로가기 배너",
+      "image": "/avocado/images/main/hero_1.jpg",
+      "path": "https://boardgamegeek.com/browse/boardgame"
+    },
+    {
+      "content": "보드라이프 랭킹 바로가기 배너",
+      "image": "/avocado/images/main/hero_2.jpg",
+      "path": "https://boardlife.co.kr/rank.php"
+    },
+    {
+      "content": "킥스타터 테이블탑 게임 바로가기 배너",
+      "image": "/avocado/images/main/hero_3.jpg",
+      "path": "https://www.kickstarter.com/discover/advanced?category_id=34&sort=magic&seed=2843896&next_page_cursor=&page=1"
+    },
+    {
+      "content": "게임파운드 바로가기 배너",
+      "image": "/avocado/images/main/hero_4.jpg",
+      "path": "https://gamefound.com/en"
+    },
+    {
+      "content": "보드게임 아레나 바로가기 배너",
+      "image": "/avocado/images/main/hero_5.jpg",
+      "path": "https://ko.boardgamearena.com/"
+    }
+  ]
+}

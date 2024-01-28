@@ -1,0 +1,21 @@
+{
+  "message": "SUCCESS",
+  "result": [
+    {
+      "value": "ranking",
+      "koreanValue": "랭킹순"
+    },
+    {
+      "value": "recent",
+      "koreanValue": "최신순"
+    },
+    {
+      "value": "average",
+      "koreanValue": "평점순"
+    },
+    {
+      "value": "weight",
+      "koreanValue": "난이도순"
+    }
+  ]
+}

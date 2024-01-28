@@ -1,0 +1,33 @@
+{
+  "message": "SUCCESS",
+  "result": [
+    {
+      "name": "전략 게임",
+      "type": "Strategy"
+    },
+    {
+      "name": "테마 게임",
+      "type": "Thematic"
+    },
+    {
+      "name": "가족 게임",
+      "type": "Family"
+    },
+    {
+      "name": "파티 게임",
+      "type": "Party"
+    },
+    {
+      "name": "추상 전략 게임",
+      "type": "Abstract"
+    },
+    {
+      "name": "워게임",
+      "type": "Wargames"
+    },
+    {
+      "name": "컬렉터블 게임",
+      "type": "Customizable"
+    }
+  ]
+}
