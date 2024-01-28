@@ -1,8 +1,8 @@
 {
   "message": "SUCCESS",
   "type": "Customizable",
-  "description": "CCG(Collectible Card Games), CDG(Collectible Dice Games), CMG(Collectible Miniature Games), LCG(Living Card Games), TCG(Trading Card Games) 등 모든 형태의 게임이 이 카테고리에 속합니다.",
-  "isEvent": false,
+  "koreanType": "컬렉터블 게임",
+  "description": "무엇인가 수집하는 것이 취미라면!",
   "result": [
     {
       "ranking": 12,

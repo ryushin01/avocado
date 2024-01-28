@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { API } from '../../../../config';
 import ListItem from '../../../List/components/ListItem';
 import axios from 'axios';
@@ -33,7 +34,7 @@ const MainWrapper = () => {
 
       setBoardgameData(boardgameDataArr);
     } catch (error) {
-      alert('MainWrapper.jsx > endpoints 7개 중에서 발생한 에러입니다.');
+      alert('MainWrapper.jsx > ENDPOINTS에서 발생한 에러입니다.');
     }
   };
 
@@ -43,20 +44,29 @@ const MainWrapper = () => {
   }, []);
 
   return (
-    <div className="col-span-5 lg:col-span-3 lg:pt-20">
-      {/* 
-        1. 더보기 > 리스트 라우터 이동 버튼 필요!
-        2. 추상 전략 데이터 1개 추가 필요!
-        3. 그리드 비율 수정: 2-4 / 총 6
-      */}
-
+    <div className="col-span-6 lg:col-span-4 lg:pt-20">
       {boardgameData.map(
-        ({ type, description, isEvent, eventImages, result }, index) => {
+        (
+          {
+            type,
+            koreanType,
+            description,
+            isMainEvent,
+            isSubEvent,
+            eventImages,
+            result,
+          },
+          index,
+        ) => {
           return (
             <section key={index}>
-              <div className="flex flex-col justify-between gap-12 px-6 py-12 lg:px-12 lg:py-24 border border-solid border-grayscaleB rounded-lg lg:bg-grayscaleG">
-                <h2 className="text-4xl">{type.toUpperCase()}</h2>
-                <span className="font-thin">{description}</span>
+              <div className="flex flex-col justify-between gap-12 px-6 py-12 lg:px-12 lg:py-24 border border-solid border-grayscaleB rounded-lg bg-grayscaleG">
+                <h2 className="text-4xl" tabIndex={0}>
+                  {type.toUpperCase()}
+                </h2>
+                <span className="font-thin tracking-tighter">
+                  {description}
+                </span>
                 <Swiper
                   navigation={true}
                   modules={[Navigation]}
@@ -74,7 +84,7 @@ const MainWrapper = () => {
                       slidesPerView: 5,
                     },
                   }}
-                  className="main-swiper w-full bg-grayscaleB"
+                  className="main-swiper bg-grayscaleB w-[calc(100%+48px)] -mx-6 lg:w-full lg:mx-0"
                 >
                   {result?.map(
                     ({ ranking, yearReleased, image, name }, index) => {
@@ -94,18 +104,65 @@ const MainWrapper = () => {
                     },
                   )}
                 </Swiper>
+                <Link
+                  to="/"
+                  className="flex justify-between items-center tracking-tighter"
+                >
+                  <span>{koreanType}</span>
+                  <span className="flex items-center flex-1 pr-7 bg-[url('/images/common/icon_arrow_right_dark.png')] bg-6 bg-right-center bg-no-repeat before:content-[''] before:block before:h-px before:flex-1 before:mx-3 before:bg-grayscaleB">
+                    전체 목록 보기
+                  </span>
+                </Link>
               </div>
-              {isEvent && (
-                <div className="border border-solid border-grayscaleB rounded-lg bg-grayscaleG">
-                  <ul className="flex">
-                    {eventImages?.map(({ image, alt }, index) => {
+              {isMainEvent && (
+                <div className="h-[70vw] lg:h-[30vw] bg-grayscaleB">
+                  <ul className="flex h-full">
+                    {eventImages?.map(({ path, image, alt }, index) => {
                       return (
-                        <li key={index} className="flex-1">
-                          <a href="#" className="relative">
+                        <li
+                          key={index}
+                          className="flex-1 overflow-hidden rounded-lg border border-solid border-grayscaleB"
+                        >
+                          <a
+                            href={path}
+                            className="relative block w-full h-full before:content-[''] before:z-10 before:absolute before:inset-0 before:bg-grayscaleA/50"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             <img
                               src={image}
                               alt={alt}
-                              className="absolute top-0 w-full h-full p-4 object-contain"
+                              className="absolute top-0 w-full h-full object-cover"
+                            />
+                            <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 text-grayscaleG text-5xl">
+                              {alt}
+                            </span>
+                          </a>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              )}
+              {isSubEvent && (
+                <div className="h-[50vw] lg:h-[20vw] bg-grayscaleB">
+                  <ul className="flex h-full">
+                    {eventImages?.map(({ path, image, alt }, index) => {
+                      return (
+                        <li
+                          key={index}
+                          className="flex-1 overflow-hidden rounded-lg border border-solid border-grayscaleB"
+                        >
+                          <a
+                            href={path}
+                            className="relative block w-full h-full"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <img
+                              src={image}
+                              alt={alt}
+                              className="absolute top-0 w-full h-full object-cover"
                             />
                           </a>
                         </li>

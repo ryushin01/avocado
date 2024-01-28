@@ -94,7 +94,7 @@ const Nav = ({ toggleSideNav, handleSideNav }) => {
         </div>
       </section>
       <footer>
-        <div className="px-5 pt-[30px] pb-[160px] lg:px-[60px] lg:pt-[60px] rounded-t-lg bg-grayscaleG">
+        <div className="px-5 pt-[30px] pb-[160px] lg:px-[60px] lg:pt-[60px] rounded-t-lg bg-grayscaleG tracking-tighter">
           <ul className="flex items-center gap-5">
             <li className="text-xs lg:text-base text-grayscaleB whitespace-nowrap font-bold">
               아보카도 소개
@@ -111,19 +111,19 @@ const Nav = ({ toggleSideNav, handleSideNav }) => {
           </ul>
           <ul className="mt-5 lg:mt-10">
             <li className="text-[11px] lg:text-base lg:leading-8 text-grayscaleB">
-              (주) 아보카도
+              (주)아보카도
             </li>
             <li className="text-[11px] lg:text-base lg:leading-8 text-grayscaleB">
-              대표자 | 류창선
+              대표자: 류창선
             </li>
             <li className="text-[11px] lg:text-base lg:leading-8 text-grayscaleB">
-              주소 | 서울특별시 중구 한강대로 416 위워크 서울스퀘어점
+              주소: 서울특별시 중구 한강대로 416 위워크 서울스퀘어점
             </li>
             <li className="text-[11px] lg:text-base lg:leading-8 text-grayscaleB">
-              대표전화 | 0000-0000
+              대표전화: 0000-0000
             </li>
             <li className="text-[11px] lg:text-base lg:leading-8 text-grayscaleB">
-              이메일 | help@avocado.com
+              이메일: help@avocado.com
             </li>
           </ul>
           <span className="block mt-5 lg:mt-10 text-[11px] lg:text-base text-grayscaleB tracking-[-0.4px]">

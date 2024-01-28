@@ -1,8 +1,8 @@
 {
   "message": "SUCCESS",
   "type": "Family",
+  "koreanType": "가족 게임",
   "description": "저연령층이나 게임에 대한 이해도가 부족한 이들도 누구든지 쉽게 즐길 수 있는 게임입니다.",
-  "isEvent": false,
   "result": [
     {
       "ranking": 14,
@@ -325,6 +325,25 @@
       "designer": ["Elwen", "Mín"],
       "type": ["Family", "Strategy"],
       "category": ["모험", "고대", "탐사", "여행"],
+      "isKoreanVersion": true
+    },
+    {
+      "ranking": 106,
+      "bggId": 163412,
+      "blId": 4368,
+      "name": "패치워크",
+      "englishName": "Patchwork",
+      "image": "https://cf.geekdo-images.com/wLW7pFn0--20lEizEz5p3A__original/img/B1j7R-slq8wxgC71Sg1F7S1s7Kg=/0x0/filters:format(jpeg)/pic2270442.jpg",
+      "yearReleased": 2014,
+      "players": "2",
+      "best": "2",
+      "playingTime": "15-30",
+      "minAge": 8,
+      "average": 7.6,
+      "averageWeight": 1.6,
+      "designer": ["Uwe Rosenberg"],
+      "type": ["Abstract", "Family"],
+      "category": ["추상 전략", "경제", "퍼즐"],
       "isKoreanVersion": true
     }
   ]

@@ -40,11 +40,11 @@ const Header = ({ isOverHero }) => {
   return (
     // lg:overflow-hidden lg:border lg:border-solid lg:border-grayscaleB
     <header
-      className={`fixed z-30 top-0 inset-x-0 flex justify-between items-center h-12 lg:h-20 px-5 lg:px-0 text-xl lg:text-3xl transition-all duration-500 ease-in-out text-grayscaleG lg:rounded-lg after:content-[''] after:absolute after:top-0 after:inset-x-0 after:h-0 after:bg-grayscaleG after:transition-all after:duration-300 ${
+      className={`fixed z-30 top-0 inset-x-0 flex justify-between items-center  h-12 lg:h-20 px-5 lg:px-0 text-xl lg:text-3xl transition-all duration-500 ease-in-out text-grayscaleG lg:rounded-lg after:content-[''] after:absolute after:top-0 after:inset-x-0 after:h-0 after:bg-grayscaleG after:transition-all after:duration-300 ${
         isOverHero ? 'scrolled' : ''
       }`}
     >
-      <div className="grid grid-cols-2 lg:grid-cols-5 w-full">
+      <div className="grid grid-cols-2 lg:grid-cols-6 w-full">
         <h1 className="flex items-center lg:pl-[60px] lg:col-span-2">
           <Link
             // to="/"
@@ -64,7 +64,7 @@ const Header = ({ isOverHero }) => {
           )}
         </Portal>
 
-        <div className="lg:col-span-3 flex justify-end lg:bg-grayscaleG lg:rounded-lg lg:pr-[60px] lg:border lg:border-solid lg:border-grayscaleB">
+        <div className="lg:col-span-4 flex justify-end lg:bg-grayscaleG lg:rounded-lg lg:pr-[60px] lg:border lg:border-solid lg:border-grayscaleB">
           <button
             type="button"
             onClick={handleSideNav}

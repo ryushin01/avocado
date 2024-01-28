@@ -1,8 +1,16 @@
 {
   "message": "SUCCESS",
   "type": "Abstract",
-  "description": "추상 전략 게임은 운을 최소화하고 테마에 의존하지 않는 전략 게임입니다. 거의 모든 추상 전략 게임은 숨겨진 정보가 없고 두 명의 플레이어 또는 한정된 수의 플레이어가 교대로 턴을 수행합니다.",
-  "isEvent": true,
+  "koreanType": "추상 전략 게임",
+  "description": "추상 전략 게임으로 두뇌 대결을 벌여보세요!",
+  "isSubEvent": true,
+  "eventImages": [
+    {
+      "path": "https://boardgamegeek.com/geeksearch.php?action=search&advsearch=1&objecttype=boardgame&q=&include%5Bdesignerid%5D=&geekitemname=&geekitemname=&include%5Bpublisherid%5D=&range%5Byearpublished%5D%5Bmin%5D=&range%5Byearpublished%5D%5Bmax%5D=&range%5Bminage%5D%5Bmax%5D=&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=&floatrange%5Bavgweight%5D%5Bmax%5D=&range%5Bnumweights%5D%5Bmin%5D=&colfiltertype=&searchuser=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&playerrangetype=normal&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=&familyids%5B%5D=4666&B1=Submit",
+      "image": "/avocado/images/event/abstract_1.jpg",
+      "alt": "추상 전략 게임 이벤트 베너 1"
+    }
+  ],
   "result": [
     {
       "ranking": 20,
@@ -78,6 +86,25 @@
       "designer": ["Michal Mikeš", "Jan Soukal", "Adam Španěl"],
       "type": ["Abstract", "Family"],
       "category": ["추상 전략", "퍼즐", "비디오 게임 테마"],
+      "isKoreanVersion": true
+    },
+    {
+      "ranking": 106,
+      "bggId": 163412,
+      "blId": 4368,
+      "name": "패치워크",
+      "englishName": "Patchwork",
+      "image": "https://cf.geekdo-images.com/wLW7pFn0--20lEizEz5p3A__original/img/B1j7R-slq8wxgC71Sg1F7S1s7Kg=/0x0/filters:format(jpeg)/pic2270442.jpg",
+      "yearReleased": 2014,
+      "players": "2",
+      "best": "2",
+      "playingTime": "15-30",
+      "minAge": 8,
+      "average": 7.6,
+      "averageWeight": 1.6,
+      "designer": ["Uwe Rosenberg"],
+      "type": ["Abstract", "Family"],
+      "category": ["추상 전략", "경제", "퍼즐"],
       "isKoreanVersion": true
     }
   ]

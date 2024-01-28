@@ -1,8 +1,16 @@
 {
   "message": "SUCCESS",
   "type": "Strategy",
-  "description": "전략 게임은 전세계적으로 인기가 가장 많습니다. 다만, 초심자가 즐기기에는 난이도가 상당히 높습니다.",
-  "isEvent": true,
+  "koreanType": "전략 게임",
+  "description": "전략 게임은 전세계적으로 인기가 가장 많은 장르입니다.",
+  "isMainEvent": true,
+  "eventImages": [
+    {
+      "path": "https://boardgamegeek.com/hotness",
+      "image": "/avocado/images/event/strategy_1.jpg",
+      "alt": "boardgamegeek HOT 50"
+    }
+  ],
   "result": [
     {
       "ranking": 1,

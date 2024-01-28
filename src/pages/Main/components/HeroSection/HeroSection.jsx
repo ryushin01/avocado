@@ -31,7 +31,7 @@ export default function HeroSection() {
         tag="section"
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 3500, disableOnInteraction: true }}
-        className="hero-swiper sticky top-0 w-full h-screen col-span-5 lg:col-span-2"
+        className="hero-swiper w-full h-[90vh] lg:h-screen lg:sticky lg:top-0 col-span-5 lg:col-span-2"
       >
         {heroData?.map(({ content, image, path }, index) => {
           return (

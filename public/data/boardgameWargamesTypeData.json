@@ -1,8 +1,8 @@
 {
   "message": "SUCCESS",
   "type": "Wargames",
-  "description": "대개 역사 테마를 가지고 있는 이 카테고리의 게임들은 오랜 시간동안 플레이를 해야 합니다. 다양한 유형의 군사 작전을 주로 다루지만, 정치적 선택도 빠질 수 없는 요소 중 하나입니다.",
-  "isEvent": false,
+  "koreanType": "워게임",
+  "description": "테이블 위에서 할 수 있는 전쟁 게임입니다.",
   "result": [
     {
       "ranking": 59,

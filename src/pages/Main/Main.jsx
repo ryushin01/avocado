@@ -31,7 +31,7 @@ const Main = () => {
 
   return (
     <main>
-      <div className="grid grid-cols-2 lg:grid-cols-5 w-full">
+      <div className="grid grid-cols-2 lg:grid-cols-6 w-full">
         <HeroSection />
         <MainWrapper />
       </div>

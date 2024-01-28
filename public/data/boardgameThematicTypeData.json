@@ -1,14 +1,17 @@
 {
   "message": "SUCCESS",
   "type": "Thematic",
-  "description": "테마 게임은 이야기와 캐릭터를 강조합니다. 이야기의 바다로 빠져드실 준비가 되셨나요?",
-  "isEvent": true,
+  "koreanType": "테마 게임",
+  "description": "테마 게임이 속삭이는 이야기의 바다로 빠져드실 준비가 되셨나요?",
+  "isSubEvent": true,
   "eventImages": [
     {
+      "path": "https://boardgamegeek.com/geeksearch.php?action=search&advsearch=1&objecttype=boardgame&q=&include%5Bdesignerid%5D=&geekitemname=&geekitemname=&include%5Bpublisherid%5D=&range%5Byearpublished%5D%5Bmin%5D=&range%5Byearpublished%5D%5Bmax%5D=&range%5Bminage%5D%5Bmax%5D=&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=&floatrange%5Bavgweight%5D%5Bmax%5D=&range%5Bnumweights%5D%5Bmin%5D=&colfiltertype=&searchuser=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&playerrangetype=normal&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=&propertyids%5B%5D=1010&B1=Submit",
       "image": "/avocado/images/event/thematic_1.jpg",
       "alt": "테마 게임 이벤트 베너 1"
     },
     {
+      "path": "https://boardgamegeek.com/geeksearch.php?action=search&advsearch=1&objecttype=boardgame&q=&include%5Bdesignerid%5D=&geekitemname=&geekitemname=&include%5Bpublisherid%5D=&range%5Byearpublished%5D%5Bmin%5D=&range%5Byearpublished%5D%5Bmax%5D=&range%5Bminage%5D%5Bmax%5D=&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=&floatrange%5Bavgweight%5D%5Bmax%5D=&range%5Bnumweights%5D%5Bmin%5D=&colfiltertype=&searchuser=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&playerrangetype=normal&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=&propertyids%5B%5D=1055&B1=Submit",
       "image": "/avocado/images/event/thematic_2.jpg",
       "alt": "테마 게임 이벤트 베너 2"
     }
@@ -508,6 +511,25 @@
       "designer": ["Ryan Laukat"],
       "type": ["Thematic"],
       "category": ["모험", "탐사", "판타지", "해상"],
+      "isKoreanVersion": true
+    },
+    {
+      "ranking": 110,
+      "bggId": 171131,
+      "blId": 6534,
+      "name": "캡틴 소나",
+      "englishName": "Captain Sonar",
+      "image": "https://cf.geekdo-images.com/Dpu5nFJu4UUJ4Y50WyKueg__original/img/feQTYcCwgIg4LneCYIoaWz12Z24=/0x0/filters:format(jpeg)/pic7069368.jpg",
+      "yearReleased": 2016,
+      "players": "2-8",
+      "best": "8",
+      "playingTime": "45-60",
+      "minAge": 14,
+      "average": 7.5,
+      "averageWeight": 2.19,
+      "designer": ["Roberto Fraga", "Yohan Lemonnier"],
+      "type": ["Party", "Thematic"],
+      "category": ["추론", "전투", "현대전", "해양", "실시간"],
       "isKoreanVersion": true
     }
   ]
