@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom';
 import { customAxios } from '../../modules/customAxios/customAxios';
 import { API } from '../../config';
 import Loading from '../../components/Loading/Loading';
-import Lnb from './Lnb/Lnb';
 import DetailWrapper from './DetailWrapper/DetailWrapper';
 
 const Detail = () => {
@@ -54,27 +53,24 @@ const Detail = () => {
   return (
     <>
       {loading && <Loading />}
-      <main>
-        <div className="grid grid-cols-1 w-full lg:grid-cols-6">
-          <Lnb name={name} englishName={englishName} />
-          <DetailWrapper
-            ranking={rankingInt}
-            bggId={bggId}
-            blId={blId}
-            image={image}
-            yearReleased={yearReleased}
-            players={players}
-            best={best}
-            playingTime={playingTime}
-            minAge={minAge}
-            average={average}
-            averageWeight={averageWeight}
-            processedDesignerData={processedDesignerData}
-            processedTypeData={processedTypeData}
-            processedCategoryData={processedCategoryData}
-          />
-        </div>
-      </main>
+      <DetailWrapper
+        ranking={rankingInt}
+        bggId={bggId}
+        blId={blId}
+        name={name}
+        englishName={englishName}
+        image={image}
+        yearReleased={yearReleased}
+        players={players}
+        best={best}
+        playingTime={playingTime}
+        minAge={minAge}
+        average={average}
+        averageWeight={averageWeight}
+        processedDesignerData={processedDesignerData}
+        processedTypeData={processedTypeData}
+        processedCategoryData={processedCategoryData}
+      />
     </>
   );
 };

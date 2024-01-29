@@ -35,6 +35,10 @@ export default {
       bggLow: '#1978b3',
     },
     extend: {
+      flex: {
+        2: '2 2 0%',
+        3: '3 3 0%',
+      },
       animation: {
         waterfall: 'waterfall 0.3s linear 0.01s backwards',
         spread: 'spread 0.15s linear 0.01s backwards',

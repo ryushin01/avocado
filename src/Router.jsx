@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CommonLayout from './components/Layout/CommonLayout';
+import MainLayout from './components/Layout/MainLayout';
 import Gateway from './pages/Gateway/Gateway';
 import Footer from './components/Footer/Footer';
 import InitializeScroll from './modules/InitializeScroll/InitializeScroll';
@@ -13,12 +14,14 @@ const Router = () => {
   return (
     <BrowserRouter basename="/avocado">
       <Routes>
+        <Route path="/" element={<Gateway />} />
         <Route element={<CommonLayout />}>
+          <Route path="/list/:type" element={<List />} />
+          <Route path="/detail/:ranking" element={<Detail />} />
+        </Route>
+        <Route element={<MainLayout />}>
           <Route path="/main" element={<Main />} />
         </Route>
-        <Route path="/" element={<Gateway />} />
-        <Route path="/list/:type" element={<List />} />
-        <Route path="/detail/:ranking" element={<Detail />} />
       </Routes>
       <Footer />
       <InitializeScroll />

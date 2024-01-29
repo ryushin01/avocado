@@ -6,6 +6,8 @@ const DetailWrapper = ({
   ranking,
   bggId,
   blId,
+  name,
+  englishName,
   image,
   yearReleased,
   players,
@@ -19,9 +21,9 @@ const DetailWrapper = ({
   processedCategoryData,
 }) => {
   return (
-    <section className="lg:col-span-4">
+    <section className="lg:col-span-6">
       <div className="flex flex-col gap-20 p-5 bg-grayscaleG border border-solid border-grayscaleB rounded-lg lg:px-[60px] lg:py-[100px] lg:min-h-screen lg:justify-between lg:gap-40">
-        <div className="flex flex-col gap-10 lg:flex-row lg:gap-5">
+        <div className="flex flex-col gap-10 lg:flex-row">
           <div className="flex flex-col gap-5 flex-1">
             <div className="relative overflow-hidden rounded-lg">
               <img src={image} alt={name} className="" />
@@ -81,12 +83,15 @@ const DetailWrapper = ({
               </ul>
             </div>
           </div>
-          <div className="flex flex-col gap-20 flex-1">
+          <div className="flex flex-col gap-20 flex-2">
             <div className="flex flex-col gap-5">
               <h3 className="font-bold lg:text-3xl">게임 정보</h3>
               <ul className="flex flex-col gap-2 text-sm lg:text-lg">
+                <li>
+                  게임명: {name} ({englishName})
+                </li>
                 <li>디자이너: {processedDesignerData}</li>
-                <li>출시년도: {yearReleased}</li>
+                <li>출시년도: {yearReleased}년</li>
                 <li>장르: {processedTypeData}</li>
                 <li>카테고리: {processedCategoryData}</li>
                 <li>플레이 인원: {players}명</li>
@@ -156,23 +161,25 @@ const DetailWrapper = ({
           </div>
         </div>
 
-        <div className="flex gap-5">
-          <a
-            href={`https://boardgamegeek.com/boardgame/${bggId}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex justify-center items-center flex-1 p-5 rounded-lg bg-primary/90 text-lg font-bold text-grayscaleG hover:bg-primary active:bg-primary"
-          >
-            보드게임긱
-          </a>
-          <a
-            href={`https://boardlife.co.kr/bbs_detail.php?bbs_num=${blId}&tb=boardgame_strategy`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex justify-center items-center flex-1 p-5 rounded-lg bg-secondary/90 text-lg font-bold text-grayscaleG hover:bg-secondary active:bg-secondary"
-          >
-            보드라이프
-          </a>
+        <div className="flex gap-10 lg:before:content-[''] lg:before:flex-1">
+          <div className="flex flex-2 gap-5">
+            <a
+              href={`https://boardgamegeek.com/boardgame/${bggId}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex justify-center items-center flex-1 p-5 rounded-lg bg-primary/90 text-lg font-bold text-grayscaleG hover:bg-primary active:bg-primary"
+            >
+              보드게임긱
+            </a>
+            <a
+              href={`https://boardlife.co.kr/bbs_detail.php?bbs_num=${blId}&tb=boardgame_strategy`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex justify-center items-center flex-1 p-5 rounded-lg bg-secondary/90 text-lg font-bold text-grayscaleG hover:bg-secondary active:bg-secondary"
+            >
+              보드라이프
+            </a>
+          </div>
         </div>
       </div>
     </section>
