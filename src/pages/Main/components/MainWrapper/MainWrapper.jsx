@@ -35,13 +35,13 @@ const MainWrapper = () => {
       }
 
       setAllBoardgameData(allBoardgameDataArr);
+      setLoading(false);
     } catch (error) {
       alert('MainWrapper.jsx > ENDPOINTS에서 발생한 에러입니다.');
     }
   };
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2900);
     getAllBoardgameData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

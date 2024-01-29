@@ -26,7 +26,7 @@ const Header = ({ isOverHero }) => {
     >
       <div className="grid grid-cols-2 lg:grid-cols-6 w-full">
         <h1 className="flex items-center lg:pl-[60px] lg:col-span-2">
-          <Link to="/" className="relative z-20 tracking-[8px]">
+          <Link to="/main" className="relative z-20 tracking-[8px]">
             avocado
           </Link>
         </h1>

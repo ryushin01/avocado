@@ -51,7 +51,7 @@ const DetailWrapper = ({
                     className={`text-lg text-bold ${
                       average > 8
                         ? 'text-bggHigh'
-                        : averageWeight > 7
+                        : average > 7
                           ? 'text-bggLow'
                           : ''
                     }`}
@@ -125,7 +125,7 @@ const DetailWrapper = ({
                     />
                   </a>
                 </li>
-                <li className="h-20 p-1 border border-solid border-grayscaleB/10">
+                <li className="h-20 p-3 border border-solid border-grayscaleB/10">
                   <a
                     href="https://popcone.co.kr/"
                     target="_blank"

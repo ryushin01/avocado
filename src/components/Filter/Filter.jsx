@@ -2,7 +2,7 @@ const Filter = ({ filterData, switchOption }) => {
   return (
     <select
       onChange={switchOption}
-      className="inline-flex pl-8 bg-[url('/images/common/icon_filter.png')] bg-6 bg-left-center bg-no-repeat lg:text-lg appearance-none"
+      className="inline-flex p-4 pl-8 bg-[url('/images/common/icon_filter.png')] bg-6 bg-left-center bg-no-repeat bg-grayscaleG lg:text-lg appearance-none"
     >
       {filterData.map(({ value, koreanValue }, index) => {
         return (

@@ -9,7 +9,7 @@ const Lnb = ({ name, englishName }) => {
 
   return (
     <section className="sticky top-0 z-20 w-full rounded-t-0 rounded-b-lg border border-solid border-grayscaleB bg-grayscaleG lg:h-screen lg:col-span-2 lg:rounded-lg">
-      <div className="flex flex-row justify-between w-full h-full px-5 py-2 lg:flex-col lg:px-[60px] lg:py-[100px]">
+      <div className="flex flex-row justify-between items-center w-full h-full px-5 py-2 lg:flex-col lg:items-start lg:px-[60px] lg:py-[100px]">
         <div className="flex justify-between items-center gap-4 flex-1 w-[calc(100%-40px)] lg:flex-col lg:justify-start lg:items-start lg:flex-0">
           <h2 className="w-full text-xl tracking-tighter truncate lg:pb-4 lg:border-b lg:border-solid lg:border-grayscaleB/10 lg:text-4xl lg:text-clip lg:whitespace-normal">
             {name} ({englishName})
