@@ -6,6 +6,7 @@ export default {
       4: '1rem',
       6: '1.5rem',
       8: '2rem',
+      10: '2.5rem',
       '20%': '20% auto',
       '25%': '25% auto',
       '33%': '33.3333% auto',

@@ -26,6 +26,12 @@
     min-height: 100vh;
   }
 
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
   .a11y-hidden {
     overflow: hidden;
     position: absolute;
@@ -71,7 +77,53 @@
   }
 
   .btn-default {
-    @apply py-2 px-4  w-full text-[20px] h-[60px] font-bold tracking-[6px] rounded-lg cursor-pointer lg:h-[90px] lg:text-[30px] lg:py-3 lg:px-6;
+    @apply w-40 h-10 border-2 border-grayscaleB rounded-lg tracking-tighter opacity-80 hover:opacity-100 active:opacity-100;
+  }
+
+  .btn-primary {
+    @apply w-60 h-20 bg-grayscaleB text-grayscaleG text-2xl;
+  }
+
+  .input-group {
+    @apply relative flex flex-col gap-3;
+
+    .info-text {
+      @apply flex items-center gap-2 before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[url('/images/common/icon_info.png')] before:bg-cover before:bg-center before:bg-no-repeat;
+    }
+
+    .btn-password-viewer {
+      @apply absolute top-2 right-0 w-10 h-10 text-[1px] text-grayscaleG/0 bg-[url('/images/account/icon_view.png')] bg-cover bg-no-repeat bg-center;
+
+      &.active {
+        @apply bg-[url('/images/account/icon_hidden.png')];
+      }
+    }
+
+    .floating {
+      @apply absolute top-2 right-0;
+    }
+
+    .certification-area {
+      @apply flex items-center gap-5;
+
+      span {
+        @apply text-primary;
+      }
+    }
+
+    .input {
+      @apply w-full py-4 pr-60 border-b-2 border-t-grayscaleB appearance-none;
+    }
+  }
+
+  .signin {
+    legend + div {
+      @apply gap-[3.25rem];
+
+      .input-group .info-text {
+        @apply hidden;
+      }
+    }
   }
 }
 

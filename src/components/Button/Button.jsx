@@ -1,19 +1,9 @@
-const Button = ({
-  type = 'button',
-  className = 'btn-default',
-  content,
-  onClick,
-  color,
-  ...props
-}) => {
+const Button = ({ type = 'button', className, content, onClick, ...props }) => {
   return (
     <>
       <button
         type={type}
-        className={`${className} ${
-          color === 'primary' ? COLOR.primary : COLOR.grayscaleG
-        } 
-        ${color === 'secondary' ? COLOR.secondary : COLOR.grayscaleG}`}
+        className={`${className ? className : ''} btn-default`}
         onClick={onClick}
         {...props}
       >
@@ -22,11 +12,4 @@ const Button = ({
     </>
   );
 };
-
-const COLOR = {
-  primary: 'bg-primary',
-  secondary: 'bg-secondary',
-  grayscaleG: 'bg-grayscaleG',
-};
-
 export default Button;
