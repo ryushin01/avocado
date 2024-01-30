@@ -4,6 +4,8 @@ import { customAxios } from '../../modules/customAxios/customAxios';
 import Loading from '../../components/Loading/Loading';
 import ListWrapper from './components/ListWrapper/ListWrapper';
 
+// [ issue ] 쿼리스트링 변경 및 히스토리백 이슈
+
 const List = () => {
   const params = useParams();
   const { type } = params;

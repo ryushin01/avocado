@@ -67,7 +67,7 @@ const InputGroup = ({
       {id === 'certification' && (
         <div className="certification-area floating">
           <span>3:00</span>
-          <Button content="인증 번호 재발송" />
+          <Button content="재발송" />
         </div>
       )}
 

@@ -77,18 +77,18 @@
   }
 
   .btn-default {
-    @apply w-40 h-10 border-2 border-grayscaleB rounded-lg tracking-tighter opacity-80 hover:opacity-100 active:opacity-100;
+    @apply w-20 h-10 border-2 border-grayscaleB rounded-lg tracking-tighter text-sm opacity-80 hover:opacity-100 active:opacity-100 lg:w-28 lg:text-base;
   }
 
   .btn-primary {
-    @apply w-60 h-20 bg-grayscaleB text-grayscaleG text-2xl;
+    @apply w-40 h-16 bg-grayscaleB text-grayscaleG text-2xl;
   }
 
   .input-group {
     @apply relative flex flex-col gap-3;
 
     .info-text {
-      @apply flex items-center gap-2 before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[url('/images/common/icon_info.png')] before:bg-cover before:bg-center before:bg-no-repeat;
+      @apply flex items-center gap-2 text-xs lg:text-base before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[url('/images/common/icon_info.png')] before:bg-cover before:bg-center before:bg-no-repeat;
     }
 
     .btn-password-viewer {
@@ -104,7 +104,7 @@
     }
 
     .certification-area {
-      @apply flex items-center gap-5;
+      @apply flex items-center gap-2 lg:gap-4;
 
       span {
         @apply text-primary;
@@ -112,13 +112,17 @@
     }
 
     .input {
-      @apply w-full py-4 pr-60 border-b-2 border-t-grayscaleB appearance-none;
+      @apply w-full py-4 pr-20 border-b-2 border-t-grayscaleB appearance-none lg:pr-40;
+
+      &::placeholder {
+        @apply text-xs lg:text-base;
+      }
     }
   }
 
   .signin {
     legend + div {
-      @apply gap-[3.25rem];
+      @apply gap-11 lg:gap-[3.25rem];
 
       .input-group .info-text {
         @apply hidden;
