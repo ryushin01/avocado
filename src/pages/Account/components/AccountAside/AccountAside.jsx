@@ -4,7 +4,7 @@ const AccountAside = () => {
   const { pathname } = useLocation();
 
   return (
-    <aside className="lg:col-span-1">
+    <aside className="hidden lg:block lg:col-span-1">
       <img
         src={`${
           pathname === '/signup'

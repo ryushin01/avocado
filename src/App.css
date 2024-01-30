@@ -77,7 +77,7 @@
   }
 
   .btn-default {
-    @apply w-20 h-10 border-2 border-grayscaleB rounded-lg tracking-tighter text-sm opacity-80 hover:opacity-100 active:opacity-100 lg:w-28 lg:text-base;
+    @apply w-20 h-10 border-2 border-grayscaleB rounded-lg tracking-tighter text-sm opacity-80 hover:opacity-100 active:opacity-100 lg:w-24 lg:text-base;
   }
 
   .btn-primary {
@@ -125,6 +125,10 @@
       @apply gap-11 lg:gap-[3.25rem];
 
       .input-group .info-text {
+        @apply hidden;
+      }
+
+      .floating {
         @apply hidden;
       }
     }
