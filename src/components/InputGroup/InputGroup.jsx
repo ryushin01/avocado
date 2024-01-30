@@ -22,8 +22,9 @@ const InputGroup = ({
   id,
   value,
   isSeparate,
-  maxLength,
-  aaa,
+  isHiddenPassword,
+  togglePasswordViewer,
+  validation,
   ...props
 }) => {
   return (
@@ -35,7 +36,7 @@ const InputGroup = ({
             placeholder={PLACEHOLDER_TEXT[id]}
             id={id}
             value={value}
-            maxLength={maxLength}
+            validation={validation}
           />
         )}
 
@@ -46,7 +47,7 @@ const InputGroup = ({
             id={id}
             value={value}
             isSeparate={isSeparate}
-            maxLength={maxLength}
+            validation={validation}
           />
         )}
       </div>
@@ -56,7 +57,8 @@ const InputGroup = ({
       {id.includes('password') && (
         <button
           type="button"
-          className={`btn-password-viewer ${aaa ? 'active' : ''}`}
+          className={`btn-password-viewer ${!isHiddenPassword ? 'active' : ''}`}
+          onClick={togglePasswordViewer}
         >
           비밀번호 표시
         </button>

@@ -25,7 +25,7 @@ const SignUpForm = () => {
         <legend className="w-full mb-8 text-xl tracking-tighter lg:pb-4 lg:border-b lg:border-solid lg:border-grayscaleB/10 lg:text-4xl">
           회원 가입
         </legend>
-        <div className="flex flex-col gap-4 w-full">
+        <div className="flex flex-col gap-4 w-full lg:gap-8">
           <InputGroup id="id" />
           <InputGroup type="password" id="password" />
           <InputGroup type="password" id="passwordRecheck" />
@@ -34,7 +34,7 @@ const SignUpForm = () => {
           <InputGroup id="name" />
           <InputGroup type="email" id="email" />
           <InputGroup type="number" id="phone" />
-          <InputGroup type="number" id="certification" maxLength="6" />
+          <InputGroup type="number" id="certification" />
         </div>
         <Button type="submit" content="회원 가입" className="btn-primary" />
       </fieldset>

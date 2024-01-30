@@ -112,7 +112,15 @@
     }
 
     .input {
-      @apply w-full py-4 pr-20 border-b-2 border-t-grayscaleB appearance-none lg:pr-40;
+      @apply w-full py-4 pr-20 border-b-2 border-grayscaleB appearance-none lg:pr-40;
+
+      &.error {
+        @apply border-primary;
+      }
+
+      &.done {
+        @apply border-secondary;
+      }
 
       &::placeholder {
         @apply text-xs lg:text-base;
@@ -120,17 +128,13 @@
     }
   }
 
+  .checkbox-wrap {
+    @apply flex gap-2 tracking-tighter;
+  }
+
   .signin {
-    legend + div {
-      @apply gap-11 lg:gap-[3.25rem];
-
-      .input-group .info-text {
-        @apply hidden;
-      }
-
-      .floating {
-        @apply hidden;
-      }
+    .floating {
+      @apply hidden;
     }
   }
 }

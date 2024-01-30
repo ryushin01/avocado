@@ -11,7 +11,7 @@ const SignIn = () => {
           <AccountAside />
           <Link
             to="/signup"
-            className="col-span-1 text-center tracking-tighter lg:col-span-2"
+            className="col-span-1 text-center tracking-tighter underline lg:col-span-2"
           >
             회원 가입하고 전체 서비스 이용하기
           </Link>
