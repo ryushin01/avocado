@@ -1,3 +1,5 @@
+// 로그인 / 회원가입 링크 위치는 어디로 할 것인가?
+
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCookies } from 'react-cookie';

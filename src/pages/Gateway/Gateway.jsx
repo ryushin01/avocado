@@ -13,7 +13,14 @@ const Gateway = () => {
     <>
       {loading && <Loading />}
       <main className="fixed inset-0 z-40 flex flex-col justify-center items-center gap-40 bg-grayscaleB">
-        <div className="flex flex-col gap-5 items-center px-5 lg:px-0">
+        <Link
+          to="/main"
+          className="w-28 h-28 bg-[url('/images/common/icon_power_on.png')] bg-cover bg-no-repeat bg-center text-[1px] text-grayscaleA/0 animate-bounce"
+        >
+          프로젝트 아보카도 바로 가기
+        </Link>
+
+        {/* <div className="flex flex-col gap-5 items-center px-5 lg:px-0">
           <span className="text-2xl lg:text-4xl text-grayscaleF">
             이곳은 포트폴리오 용도로 제작된 웹 사이트입니다.
           </span>
@@ -34,7 +41,7 @@ const Gateway = () => {
           >
             로그인 후 이용하기
           </Link>
-        </div>
+        </div> */}
       </main>
     </>
   );
