@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { API } from '../../../../config';
-import Loading from '../../../../components/Loading/Loading';
-import ListItem from '../../../List/components/ListItem/ListItem';
+import { API } from '@/config';
 import axios from 'axios';
+import Loading from '@components/Loading/Loading';
+import ListItem from '@pages/List/components/ListItem/ListItem';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css/navigation';

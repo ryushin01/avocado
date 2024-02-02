@@ -1,5 +1,5 @@
-import SignUpForm from './components/SignUpForm/SignUpForm';
-import AccountAside from '../components/AccountAside/AccountAside';
+import SignUpForm from '@pages/Account/SignUp/components/SignUpForm/SignUpForm';
+import AccountAside from '@pages/Account/components/AccountAside/AccountAside';
 
 const SignUp = () => {
   return (

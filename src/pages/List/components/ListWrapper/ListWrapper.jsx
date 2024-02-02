@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { customAxios } from '../../../../modules/customAxios/customAxios';
-import { API } from '../../../../config';
-import Filter from '../../../../components/Filter/Filter';
-import ListItem from '../ListItem/ListItem';
+import { API } from '@/config';
+import { customAxios } from '@modules/customAxios/customAxios';
+import Filter from '@components/Filter/Filter';
+import ListItem from '@pages/List/components/ListItem/ListItem';
 
 const ListWrapper = ({ boardgameData, setSort }) => {
   const [filterData, setFilterData] = useState([]);

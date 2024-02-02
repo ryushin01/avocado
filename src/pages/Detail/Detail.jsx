@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { customAxios } from '../../modules/customAxios/customAxios';
-import { API } from '../../config';
-import Loading from '../../components/Loading/Loading';
-import DetailWrapper from './DetailWrapper/DetailWrapper';
+import { API } from '@/config';
+import { customAxios } from '@modules/customAxios/customAxios';
+import Loading from '@components/Loading/Loading';
+import DetailWrapper from '@pages/Detail/components/DetailWrapper/DetailWrapper';
 
 const Detail = () => {
   const [loading, setLoading] = useState(true);

@@ -1,5 +1,5 @@
-import HeroSection from './components/HeroSection/HeroSection';
-import MainWrapper from './components/MainWrapper/MainWrapper';
+import HeroSection from '@pages/Main/components/HeroSection/HeroSection';
+import MainWrapper from '@pages/Main/components/MainWrapper/MainWrapper';
 
 const Main = () => {
   return (

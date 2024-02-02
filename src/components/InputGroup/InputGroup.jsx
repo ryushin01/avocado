@@ -25,6 +25,7 @@ const InputGroup = ({
   isHiddenPassword,
   togglePasswordViewer,
   validation,
+  onChange,
   ...props
 }) => {
   return (
@@ -37,6 +38,7 @@ const InputGroup = ({
             id={id}
             value={value}
             validation={validation}
+            onChange={onChange}
           />
         )}
 
@@ -48,6 +50,7 @@ const InputGroup = ({
             value={value}
             isSeparate={isSeparate}
             validation={validation}
+            onChange={onChange}
           />
         )}
       </div>

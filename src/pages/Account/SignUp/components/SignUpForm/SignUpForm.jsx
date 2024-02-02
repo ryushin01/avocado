@@ -1,5 +1,6 @@
-import InputGroup from '../../../../../components/InputGroup/InputGroup';
-import Button from '../../../../../components/Button/Button';
+import { useEffect } from 'react';
+import InputGroup from '@components/InputGroup/InputGroup';
+import Button from '@components/Button/Button';
 
 /* 
   1. 에러 메시지 > alert 처리
@@ -16,6 +17,11 @@ import Button from '../../../../../components/Button/Button';
 */
 
 const SignUpForm = () => {
+  useEffect(() => {
+    document.body.style.overflow = '';
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <form
       // onChange={aaa} onSubmit={bbb}

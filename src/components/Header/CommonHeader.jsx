@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const CommonHeader = ({ pathname }) => {
   const navigate = useNavigate();
@@ -9,7 +9,6 @@ const CommonHeader = ({ pathname }) => {
   };
 
   if (pathname.includes('list')) {
-    // title = 'LIST';
     title = pathname.substr(6).toUpperCase();
   } else if (pathname.includes('detail')) {
     title = 'DETAIL';
@@ -22,7 +21,7 @@ const CommonHeader = ({ pathname }) => {
       <div className="flex flex-row justify-between items-center w-full h-full px-5 py-1 lg:flex-col lg:items-start lg:px-[60px] lg:py-[100px]">
         <div className="flex justify-between items-center gap-4 flex-1 w-full lg:flex-col lg:justify-start lg:items-start lg:flex-0">
           <h2 className="w-full text-xl tracking-tighter lg:pb-4 lg:border-b lg:border-solid lg:border-grayscaleB/10 lg:text-4xl">
-            {title}
+            <Link to="/main">{title}</Link>
           </h2>
         </div>
 

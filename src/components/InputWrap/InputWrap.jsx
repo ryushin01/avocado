@@ -1,6 +1,13 @@
 import Input from '../Input/Input';
 
-const InputWrap = ({ type = 'text', placeholder, id, value, validation }) => {
+const InputWrap = ({
+  type = 'text',
+  placeholder,
+  id,
+  value,
+  validation,
+  onChange,
+}) => {
   return (
     <label htmlFor={id}>
       <Input
@@ -9,6 +16,7 @@ const InputWrap = ({ type = 'text', placeholder, id, value, validation }) => {
         id={id}
         value={value}
         validation={validation}
+        onChange={onChange}
       />
     </label>
   );

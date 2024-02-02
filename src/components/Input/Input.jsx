@@ -5,6 +5,7 @@ const Input = ({
   value,
   isSeparate,
   validation,
+  onChange,
   ...props
 }) => {
   return (
@@ -14,6 +15,7 @@ const Input = ({
         placeholder={placeholder}
         id={id}
         value={value}
+        onChange={onChange}
         className={`${validation ? validation : ''} input`}
         {...props}
       />

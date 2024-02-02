@@ -1,6 +1,6 @@
-import { ReactComponent as IconAverage } from '../../../images/common/icon_average.svg';
-import { ReactComponent as IconRanking } from '../../../images/common/icon_ranking.svg';
-import { ReactComponent as IconWeight } from '../../../images/common/icon_weight.svg';
+import { ReactComponent as IconAverage } from '@images/common/icon_average.svg';
+import { ReactComponent as IconRanking } from '@images/common/icon_ranking.svg';
+import { ReactComponent as IconWeight } from '@images/common/icon_weight.svg';
 
 const DetailWrapper = ({
   ranking,

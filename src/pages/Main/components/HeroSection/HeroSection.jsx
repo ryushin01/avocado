@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { customAxios } from '../../../../modules/customAxios/customAxios';
-import { API } from '../../../../config';
+import { API } from '@/config';
+import { customAxios } from '@modules/customAxios/customAxios';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';

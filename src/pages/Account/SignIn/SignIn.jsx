@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import SignInForm from './components/SignInForm/SignInForm';
-import AccountAside from '../components/AccountAside/AccountAside';
+import SignInForm from '@pages/Account/SignIn/components/SignInForm/SignInForm';
+import AccountAside from '@pages/Account/components/AccountAside/AccountAside';
 
 const SignIn = () => {
   return (

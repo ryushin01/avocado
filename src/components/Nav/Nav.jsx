@@ -35,8 +35,24 @@ const Nav = ({ toggleSideNav, handleSideNav }) => {
       }`}
     >
       <section>
-        <div className="sticky z-10 top-0 flex justify-end items-center px-5 lg:px-[60px] bg-grayscaleG rounded-b-lg border-b border-solid border-grayscaleB">
+        <div className="sticky z-10 top-0 flex justify-between items-center px-5 lg:px-[60px] bg-grayscaleG rounded-b-lg border-b border-solid border-grayscaleB">
           <h2 className="a11y-hidden">사이드 네비게이션</h2>
+          <div className="flex gap-6 text-grayscaleB text-[14px] lg:text-xl lg:gap-10">
+            <Link to="/signin">
+              <img
+                src="/avocado/images/common/icon_signin.png"
+                alt="로그인 이미지"
+                className="w-6 h-6 lg:w-8 lg:h-8"
+              />
+            </Link>
+            <Link to="/signup">
+              <img
+                src="/avocado/images/common/icon_signup.png"
+                alt="회원가입 이미지"
+                className="w-6 h-6 lg:w-8 lg:h-8"
+              />
+            </Link>
+          </div>
           <button
             type="button"
             className="flex justify-end items-center w-12 h-12 lg:w-20 lg:h-20"

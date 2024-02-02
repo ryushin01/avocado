@@ -16,4 +16,14 @@ export default defineConfig({
     // 패키지 크기 압축
     chunkSizeWarningLimit: 1600,
   },
+  // 절대 경로 설정
+  resolve: {
+    alias: [
+      { find: '@', replacement: '/src' },
+      { find: '@modules', replacement: '/src/modules' },
+      { find: '@components', replacement: '/src/components' },
+      { find: '@pages', replacement: '/src/pages' },
+      { find: '@images', replacement: '/src/images' },
+    ],
+  },
 });

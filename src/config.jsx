@@ -5,6 +5,7 @@ export const API = {
   BOARDGAME: `/boardgameAllData.json`,
   BOARDGAME_TYPE: `/boardgameTypeData.json`,
   FILTER: `/filterData.json`,
+  SIGNIN: `/signinData.json`,
 
   // BASE_URL이 따로 필요한 케이스
   BOARDGAME_STRATEGY_TYPE: `${BASE_URL}/boardgameStrategyTypeData.json`,

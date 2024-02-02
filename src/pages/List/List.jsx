@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useParams, useSearchParams } from 'react-router-dom';
-import { customAxios } from '../../modules/customAxios/customAxios';
-import Loading from '../../components/Loading/Loading';
-import ListWrapper from './components/ListWrapper/ListWrapper';
+import { customAxios } from '@modules/customAxios/customAxios';
+import Loading from '@components/Loading/Loading';
+import ListWrapper from '@pages/List/components/ListWrapper/ListWrapper';
 
 // [ issue ] 쿼리스트링 변경 및 히스토리백 이슈
 
