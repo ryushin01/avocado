@@ -37,6 +37,7 @@ const SignInForm = () => {
       const response = await customAxios.post(API.SIGNIN, params);
 
       if (isRemember) {
+        removeCookie('rememberUserId');
         setCookie('rememberUserId', userInfo.id);
       } else {
         removeCookie('rememberUserId');
