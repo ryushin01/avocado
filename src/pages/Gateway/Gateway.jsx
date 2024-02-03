@@ -12,13 +12,18 @@ const Gateway = () => {
   return (
     <>
       {loading && <Loading />}
-      <main className="fixed inset-0 z-40 flex flex-col justify-center items-center gap-40 bg-grayscaleB">
-        <Link
+      <main className="fixed inset-0 z-40 flex flex-col justify-center items-center gap-40 bg-grayscaleF">
+        <Link to="/main" className="enter">
+          프로젝트 구경하기
+        </Link>
+
+        {/* solid gateway에서 사용한 버튼으로 디자인 교체하기!!!!! */}
+        {/* <Link
           to="/main"
           className="w-28 h-28 bg-[url('/images/common/icon_power_on.png')] bg-cover bg-no-repeat bg-center text-[1px] text-grayscaleA/0 animate-bounce"
         >
           프로젝트 아보카도 바로 가기
-        </Link>
+        </Link> */}
 
         {/* <div className="flex flex-col gap-5 items-center px-5 lg:px-0">
           <span className="text-2xl lg:text-4xl text-grayscaleF">
